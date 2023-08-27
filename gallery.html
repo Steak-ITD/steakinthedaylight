@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The gallery of steakinthedaylight</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+        <style>
+img {
+  border: 20px solid transparent;
+  background-origin: border-box;
+	border-image: url(/Asset/frame.png) 30 round;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+  </head>
+  
+  <body>
+<!-- SCM Music Player https://www.scmplayer.net 
+<script type="text/javascript" src="https://www.scmplayer.net/script.js" 
+data-config="{'skin':'skins/aquaBlue/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'Aayurveda-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/MusMus-BGM-002.mp3'},{'title':'Beautiful Sweets-Murasato Catfood','url':'https://steakinthedaylight.neocities.org/Asset/Music/015.mp3'},{'title':'FM Kid%27s-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/2/FM Kid%27s MusMus.mp3'},{'title':'Freedom Planet 2 OST - Ancestral Forge','url':'https://steakinthedaylight.neocities.org/Asset/Music/2/Freedom Planet 2 OST - Ancestral Forge (Stage 18 Area) (320 kbps).mp3'},{'title':'Freedom Planet 2 OST - Avian Museum','url':'https://steakinthedaylight.neocities.org/Asset/Music/2/Freedom Planet 2 OST - Avian Museum (Stage 3 Area) (320 kbps).mp3'},{'title':'Freedom Planet 2 OST - City Hall','url':'https://steakinthedaylight.neocities.org/Asset/Music/Freedom Planet 2 OST - City Hall.mp3'},{'title':'Freedom Planet 2 OST - Tidal Gate','url':'https://steakinthedaylight.neocities.org/Asset/Music/2/Freedom Planet 2 OST -Tidal Gate (Stage 13 Area) (320 kbps).mp3'},{'title':'In the Park-Murasato Catfood','url':'https://steakinthedaylight.neocities.org/Asset/Music/021.mp3'},{'title':'Murasato Catfood Archive #? 1','url':'https://steakinthedaylight.neocities.org/Asset/Music/Wayback Machine-1.mp3'},{'title':'Murasato Catfood Archive #? 2','url':'https://steakinthedaylight.neocities.org/Asset/Music/Wayback Machine-2.mp3'},{'title':'Murasato Catfood Archive #? 3','url':'https://steakinthedaylight.neocities.org/Asset/Music/Wayback Machine.mp3'},{'title':'Murasato Catfood Archive #? 4','url':'https://steakinthedaylight.neocities.org/Asset/Music/014.mp3'},{'title':'Murasato Catfood Archive #? 5','url':'https://steakinthedaylight.neocities.org/Asset/Music/071.mp3'},{'title':'Murasato Catfood Archive #? 6','url':'https://steakinthedaylight.neocities.org/Asset/Music/035.mp3'},{'title':'My Style-Murasato Catfood','url':'https://steakinthedaylight.neocities.org/Asset/Music/070.mp3'},{'title':'Sonorously Box-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/MusMus-CT-NV-TT.mp3'},{'title':'Stardrops-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/MusMus-CT-NV-END.mp3'},{'title':'Starry Eyed-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/MusMus-CT-NV-17.mp3'},{'title':'Tea or Caffee?-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/2/MusMus-CT-NAVAO-32.mp3'},{'title':'The City Without Dawn-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/MusMus-BGM-138.mp3'},{'title':'Welcome to my Garden-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/MusMus-BGM-139.mp3'},{'title':'%u305D%u3057%u3066%u307C%u304F%u3089%u306F%u99C6%u3051%u51FA%u3057%u305F-Musmus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/MusMus-BGM-154.mp3'},{'title':'%u30A2%u30D0%u30BF%u30FC%u30EB-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/2/FA MusMus.mp3'},{'title':'%u30D7%u30E9%u30B9%u30C1%u30C3%u30AF%u30A2%u30C9%u30D9%u30F3%u30C1%u30E3%u30FC-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/2/Bracket MusMus.mp3'},{'title':'%u5E0C%u671B%u306E%u9752-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/MusMus-BGM-104.mp3'},{'title':'%u6625%u5BB5%u95C7%u30CB%u54B2%u30AF-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/2/TN-MusMus.mp3'},{'title':'%u6708%u9762%u9AD8%u901F%u9053-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/2/MusMus-CT-NV-56.mp3'},{'title':'%u96FB%u8133%u6F02%u6D41%u8A18-MusMus-watson','url':'https://steakinthedaylight.neocities.org/Asset/Music/2/fum-MusMus.mp3'}]}" ></script>
+ SCM Music Player script end -->
+
+
+        <div id="header-full" style="display: block;"></div>
+        <div id="navbar-full" style="display: block;">
+            <ul class="nav">
+                   <li><a href="/index2.html">Home</a></li>
+                   <li><a href="/gallery.html#">Artwork</a></li>
+                   <li><a href="/writing_gallery.html#">Writing</a></li>
+                   <li><a href="/larger_scale_projects.html#">Larger Scale Projects</a></li>
+                   <li><a href="/more_links.html#">More Links</a></li>
+                   <li><a href="/about.html#">About</a></li>
+            </ul>
+        </div>
+        <div id="main-container">
+            <div id="header-contained" style="display: none;"></div>
+            <div id="navbar-contained" style="display: none;">
+                <ul class="nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/gallery.html#">Artwork</a></li>
+                    <li><a href="/writing_gallery.html#">Writing</a></li>
+                    <li><a href="/larger_scale_projects.html#">Larger Scale Projects</a></li>
+                    <li><a href="/more_links.html#">More Links</a></li>
+                    <li><a href="/about.html#">About</a></li>
+                </ul>
+            </div>
+            <div class="content-wrap flex alignment">
+                <div id="content-container" style="flex-grow: 1;" class="checkerBorder">
+                    <div class="wrapper"><h2>Click thumbnails for page with description! Alt. text reveals title.</h2>
+                    <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />The work on this page is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
+                    <h4><a href="/Commissioned/sfw_made_for_me.html">Art that was made for me!</a></h4>
+                    <h4><a href="https://steakinthedaylight.neocities.org/Images/Edits/characters">Characters!</a></h4>
+                    <h3>General</h3>
+                    <h4 id="demo11">Click the button!</h4><button type="button" onclick='document.getElementById("demo11").innerHTML =`
+                    <a href="/Gallery/thecometrat.html#"><img src="/Images/rat.png" title="The Comet Rat" style="width:160px"/></a>
+                    <a href="/Gallery/lemres_young.html"><img src="/Images/lemyou.png" title="Young Lemres" style="height:160px"/></a>
+                    <a href="/Images/Ao.png"><img src="/Images/Ao.png" title="Astral on the Moon" style="height:160px"/></a>
+                    <a href="/Gallery/berriwhite.html#"><img src="/Images/Berriwhite.png" title="Berriwhite" style="height:160px"/></a>
+                    <a href="/Gallery/carbuncle_puyo.html#"><img src="/Images/carbunclo.png" title="Carbuncle Puyo" style="height:160px"/></a>
+                    <a href="/Gallery/lemsig#"><img src="/Images/lemsig.png" title="Lemsig" style="height:160px"/></a>
+                    <a href="/Gallery/goatamitie.html#"><img src="/Images/goat amitie.png" title="Goat Amitie" style="height:160px"/></a>`'>The Button</button>
+                    <h4 id="demo1">Click another button!</h4><button type="button" onclick='document.getElementById("demo1").innerHTML =`
+                    <a href="/Gallery/murder_rat.html#"><img src="/Images/Murder Rat.png" title="Murder Rat" style="height:160px"/></a>
+                    <a href="/Gallery/beauty.html#"><img src="/Images/Beauty.png" title="Beauty" style="width:160px"/></a>
+                    <a href="/Gallery/beetlesig.html#"><img src="/Images/beetle sig.png" title="Beetle Sig" style="height:160px"/></a>
+                    <a href="/Gallery/gigalow.html#"><img src="/Images/giga low.png" title="Giga Low" style="height:160px"/></a>
+                    <a href="/Gallery/dithdex.html#"><img src="/Images/dithdex.png" title="Dithdex" style="height:160px"/></a>
+                    <a href="/Gallery/amy_and_basil.html#"><img src="/Images/afb7fb1717533823.jpeg" title="Amy and Basil" style="height:160px"/></a>
+                    <a href="/Gallery/megabyte_pixel.html"><img src="/Images/Megabyte Shyte.png" title="Megabyte Pixel Shyte" style="height:160px"/></a>
+                    <a href="/Gallery/Whatwhat.html#"><img src="/Images/whatwhat.jpg" title="What What" style="width:160px"/></a>
+                    <a href="/Gallery/release_the_music.html#"><img src="/Images/release the music.png" title="Releaae The Music" style="height:160px"/></a>
+                    <a href="/Gallery/Periods_of_pain.html#"><img src="/Images/Periods Of Pain.jpg" title="Periods of Pain" style="height:160px"/></a>
+                    <a href="/Gallery/cheema.html#"><img src="/Images/Pakka Again.jpg" title="Cheemas Here" style="height:160px"/></a>
+                    <a href="/Gallery/flowish.html#"><img src="/Images/potent-flowish.jpg" title="Potent Flowish" style="height:160px"/></a>
+                    <a href="/Gallery/twirly.html#"><img src="/Images/twirly.jpg" title="Twirly" style="height:160px"/></a>
+                    <a href="/Gallery/turtlemouse.html#"><img src="/Images/Turtlemouse Alpha Channel.png" title="Turtlemouse" style="height:160px"/></a>
+                    <a href="/Gallery/kooraichu.html#"><img src="/Images/Kooraichu Alpha Channel.png" title="Kooraichu" style="height:160px"/></a>
+                    <a href="/Gallery/gf_dress_rocket.html#"><img src="/Images/gfrocket.png" title="Dress Series Rocket" style="height:160px"/></a>
+                    <a href="/Gallery/changa_desktop.html#"><img src="/Images/changa desktop.png" title="Changa Desktop" style="width:160px"/></a>
+                    <a href="/Gallery/intermission.html#"><img src="/Images/Intermission.png" title="Intermission" style="width:160px"/></a>
+                    <a href="/Gallery/felicia_ad.html#"><img src="/Images/felicia web.png" title="Felicia Ad" style="width:160px"/></a>
+                    <a href="/Gallery/gf_dress_aqua.html#"><img src="/Images/gfsea.png" title="Dress Series Ocean Aquarium" style="height:160px"/></a>`'>Another Button</button>
+                    <h4 id="demo8">Click the other button!</h4><button type="button" onclick='document.getElementById("demo8").innerHTML =`
+                    <a href="/Gallery/takoon.html#"><img src="/Images/Takoon Solo.png" title="Takoon" style="height:160px"/></a>
+                    <a href="/Gallery/seaweed_colors.html#"><img src="/Images/Seaw Color Palette.png" title="Seaweed Color Palette" style="height:160px"/></a>
+                    <a href="/Gallery/dollpheno.html#"><img src="/Images/paper-dollpheno.png" title="Dollpheno Forms" style="width:160px"/></a>
+                    <a href="/Gallery/million_sky.html#"><img src="/Images/Million Sky.png" title="Million Sky" style="width:160px"/></a>
+                    <a href="/Gallery/hooclaw.html#"><img src="/Images/Hooclaw Basic.png" title="Hooclaw" style="height:160px"/></a>
+                    <a href="/Gallery/hood.html#"><img src="/Images/Hood.png" title="Hood" style="height:160px"/></a>
+                    <a href="/Gallery/pixel_shaymin.html#"><img src="/Images/Shaymin Pixel.png" title="Pixel Shaymin" style="width:160px"/></a>
+                    <a href="/Gallery/alright.html#"><img src="/Images/Im alright dynamic light.png" title="Im Alright" style="height:160px"/></a>
+                    <a href="/Gallery/azurill_artifact.html#"><img src="/Images/Azurill Dot Joint Photographic Experts Group 3.jpg" title="/Images/Azurill.jpeg" style="height:160px"/></a>
+                    <a href="/Gallery/popplio.html#"><img src="/Images/Popplio line.png" title="Pix Popplio" style="width:160px"/></a>
+                    <a href="/Gallery/laz.html#"><img src="/Images/Laz Super Grown and Shrank.png" title="Laz Super Grown and Shrank" style="width:160px"/></a>
+                    <a href="/Gallery/ninjanya.html#"><img src="/Images/ninjanyatchi.jpg" title="Ninjanyatchi" style="height:160px"/></a>
+                    <a href="/Gallery/pakka_badge.html#"><img src="/Images/Pakka SFW.png" title="Pakka Badge" style="width:160px"/></a>
+                    <a href="/Gallery/panipillar_release.html#"><img src="/Images/Panipillar release Affinity.png" title="Panipillar and Release" style="height:160px"/></a>
+                    <a href="/Gallery/roar.html#"><img src="/Images/Rooaar angry smile 3D.png" title="Roar" style="width:160px"/></a>
+                    <a href="/Gallery/cat_pico.html#"><img src="/Images/Cat Pico.png" title="Cat Pico" style="height:160px"/></a>
+                    <a href="/Gallery/paranoid_psychosis.html#"><img src="/Images/Paranoid Psychosis.png" title="Paranoid Psychosis" style="height:160px"/></a>
+                    <a href="/Gallery/shooting_star.html#"><img src="/Images/Shooting Star.png" title="Shooting Star" style="height:160px"/></a>`'>The Other Button</button>
+                    <h3>Sketches</h3>
+                    <h4 id="demo2">Click this button!</h4><button type="button" onclick='document.getElementById("demo2").innerHTML =`
+                    <a href="/Gallery/amor#"><img src="/Images/Sketches/Bark and Amy.png" title="Amor" style="width:160px"/></a>
+                    <a href="/Gallery/marble_attempts#"><img src="/Images/Sketches/marble_attempts.jpg" title="Marble Attempts" style="height:160px"/></a>
+                    <a href="/Gallery/seaweedpencil.html"><img src="/Images/Sketches/extra2/20230525_112626.jpg" title="Seaweed" style="height:160px"/></a> 
+                    <a href="/Gallery/polyclick3.html#"><img src="/Images/Sketches/Poly Click design 3.jpg" title="Poly Click Design 3" style="height:160px"/></a>
+                    <a href="/Gallery/ok_tatsu_lets_be_giri.html"><img src="/Images/Sketches/tatsugiri.jpg" title="Tatsugiri" style="height:160px"/></a>
+                    <a href="/Gallery/AI_Fakemon.html"><img src="/Images/Sketches/AI%20Fakemon.jpg" title="AI Fakemon" style="height:160px"/></a>
+                    <a href="/Gallery/cat_balls.html#"><img src="/Images/Sketches/cat-ball-cats.jpg" title="Cat Balls" style="height:160px"/></a>`'>This Button</button>
+                    <h4>More</h4>
+                    <h4 id="demo4">Clicky Wicky!</h4><button type="button" onclick='document.getElementById("demo4").innerHTML =`
+                    <a href="/Images/Sketches/ecd03ed28b64a920.jpeg"><img src="/Images/Sketches/ecd03ed28b64a920.jpeg" title="Chocolate" style="height:160px"/></a>
+                    <a href="/Images/Sketches/f856fa46a2bfa34f.jpeg"><img src="/Images/Sketches/f856fa46a2bfa34f.jpeg" title="Lemrat" style="height:160px"/></a>
+                    <a href="/Images/Sketches/19f869e2ec10e848.jpeg"><img src="/Images/Sketches/19f869e2ec10e848.jpeg" title="Jiggly Tails" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/20230525_103139.jpg"><img src="/Images/Sketches/extra2/20230525_103139.jpg" title="Skitsweet Sketch" style="height:160px"/></a> 
+                    <a href="/Images/Sketches/extra2/20230327_184853.jpg"><img src="/Images/Sketches/extra2/20230327_184853.jpg" title="Felicia Sketch" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/27cff08a654dfebb.jpeg"><img src="/Images/Sketches/extra2/27cff08a654dfebb.jpeg" title="Kit Redux" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/31834b2a9e68c5df.jpeg"><img src="/Images/Sketches/extra2/31834b2a9e68c5df.jpeg" title="LingLing 1" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/canvas2.png"><img src="/Images/Sketches/extra2/canvas2.png" title="LingLing 2" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/ab5f0e0438c3bd2e.jpeg"><img src="/Images/Sketches/extra2/ab5f0e0438c3bd2e.jpeg" title="Pen Poly" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/canvas.png"><img src="/Images/Sketches/extra2/canvas.png" title="Sig Work Sketch" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/canvas1.png"><img src="/Images/Sketches/extra2/canvas1.png" title="Beetle Sig Draft 1" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/d2e86d746b673872.jpeg"><img src="/Images/Sketches/extra2/d2e86d746b673872.jpeg" title="Beetle Sig Draft 1.5" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/1a29829a911b9131.jpeg"><img src="/Images/Sketches/extra2/1a29829a911b9131.jpeg" title="Cream Work Sketch" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/d1ae03a1ad63c602.jpeg"><img src="/Images/Sketches/extra2/d1ae03a1ad63c602.jpeg" title="Sonic Work Sketch" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/canvas3.png"><img src="/Images/Sketches/extra2/canvas3.png" title="Double Tail Talia (Outdated)" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/canvas4.png"><img src="/Images/Sketches/extra2/canvas4.png" title="Adopt Doodles" style="height:160px"/></a>
+                    <a href="/Images/Sketches/extra2/198a6ee84ca8e9ed.jpg"><img src="/Images/Sketches/extra2/198a6ee84ca8e9ed.jpg" title="Feral Talia" style="height:160px"/></a>`'>Wicky</button>
+                    <h3>Scenery and Abstract</h3>
+                    <h4 id="demo10">Click that button!</h4><button type="button" onclick='document.getElementById("demo10").innerHTML =`
+                    <a href="/Gallery/comicclip.html#"><img src="/Images/Comiclip.png" title="Comic Clip" style="height:160px"/></a>
+                    <a href="/Gallery/sketchy_scene.html#"><img src="/Images/Sketchy%20Scene.png" title="Sketchy Scene" style="width:160px"/></a>
+                    <a href="/Gallery/quickiescene1.html#"><img src="/Images/quickie scene 1.png" title="Quickie Scene 1" style="width:160px"/></a>
+                    <a href="/Gallery/quickie_scene_2.html#"><img src="/Images/quicke scene 2.png" title="Quickie Scene 2" style="height:160px"/></a>
+                    <a href="/Gallery/morning_mod.html#"><img src="/Images/Morning Mod.png" title="Morning Mod" style="width:160px"/></a>
+                    <a href="/Gallery/plain_field.html#"><img src="/Images/Plain Field mountains.png" title="Plain Field and Mountains" style="width:160px"/></a>
+                    <a href="/Gallery/lamp.html#"><img src="/Images/Lamplight Trees 1.png" title="Lamp Trees" style="width:160px"/></a>
+                    <a href="/Gallery/cloud_beach.html#"><img src="/Images/Illustration Cloud beach.png" title="Cloud Beach" style="width:160px"/></a>
+                    <a href="/Gallery/dither_tree.html#"><img src="/Images/Illustration. Trees Again.png" title="Dither Tree" style="width:160px"/></a>
+                    <a href="/Gallery/smooth_cloud.html#"><img src="/Images/Night Sky Cloud.png" title="Smooth Cloud" style="width:160px"/></a>
+                    <a href="/Gallery/purple_clouds.html#"><img src="/Images/Purple Clouds.png" title="Purple Clouds" style="width:160px"/></a>
+                    <a href="/Gallery/leaves.html#"><img src="/Images/Illustration Trees with Leaves.png" title="Trees with Leaves" style="width:160px"/></a>`'>That Button</button>
+                    <h4 id="demo3">And that button!</h4><button type="button" onclick='document.getElementById("demo3").innerHTML =`
+                    <a href="/Images/Abstract8.png"><img src="/Images/Abstract8.png" title="Abstract 8" style="height:160px"/></a>
+                    <a href="/Images/Abstract7.png"><img src="/Images/Abstract7.png" title="Abstract 7" style="height:160px"/></a>
+                    <a href="/Gallery/abstractcommoncold.html#"><img src="/Images/AbstractCommonCold.png" title="The Common Cold" style="width:160px"/></a>
+                    <a href="/Gallery/abstract6.html#"><img src="/Images/Abstract6.png" title="Abstract 6" style="width:160px"/></a>
+                    <a href="/Gallery/abstract5.html#"><img src="/Images/Abstract5.png" title="Abstract 5" style="height:160px"/></a>
+                    <a href="/Gallery/abstract4.html#"><img src="/Images/Abstract4.png" title="Abstract 4" style="width:160px"/></a>
+                    <a href="/Gallery/abstract3.html#"><img src="/Images/Abstract3.png" title="Abstract 3" style="height:160px"/></a>
+                    <a href="/Gallery/abstract2.html#"><img src="/Images/Abstract2.png" title="Abstract 2" style="width:160px"/></a>
+                    <a href="/Gallery/abstract1.html#"><img src="/Images/Abstract.png" title="Abstract 1" style="width:160px"/></a>`'>That Button</button>
+                    <h3>Sonic the Hedgehog</h3>
+                    <h4 id="demo9">Touch the Butt!</h4><button type="button" onclick='document.getElementById("demo9").innerHTML =`
+                    <a href="/Gallery/crembunny.html#"><img src="/Images/crem bunny.png" title="Crem Bunny" style="height:160px"/></a>
+                    <a href="/Gallery/meantobooty"><img src="/Images/Tails_Booty_Big.png" title="Everyone is so mean 2 me &#128148;" style="height:160px"/></a>
+                    <a href="/Gallery/peanutrad"><img src="/Images/peanut trad.jpg" title="Peanut Traditional" style="height:160px"/></a>
+                    <a href="/Gallery/cremchibi.html#"><img src="/Images/chibi crem sprite.png" title="Crem Chibi Sprite" style="height:160px"/></a>
+                    <a href="/Gallery/raytrees.html#"><img src="/Images/Sketches/raytrees.jpg" title="Ray and Trees" style="height:160px"/></a>
+                    <a href="/Gallery/poly_classic.html#"><img src="/Images/poly classic.png" title="Poly Classic" style="height:160px"/></a>
+                    <a href="/Gallery/AltoKnuckles.html#"><img src="/Images/Sketches/AltoKnuckle.jpg" title="Alto Knuckles" style="height:160px"/></a>
+                    <a href="/Gallery/somic.html#"><img src="/Images/Sketches/somic.jpg" title="Somic" style="height:160px"/></a>
+                    <a href="/Gallery/wet.html#"><img src="/Images/Wet.png" title="Wet" style="width:160px"/></a>
+                    <a href="/Gallery/Amora.html#"><img src="/Images/Amora%20VHS.png" title="Amora" style="height:160px"/></a>
+                    <a href="/Gallery/hedgehog.html#"><img src="/Images/Eulipotyphlan.png" title="Eulipotyphlan" style="height:160px"/></a>
+                    <a href="/Gallery/fresh_cream.html#"><img src="/Images/Fresh Cream.png" title="Fresh Cream" style="height:160px"/></a>
+                    <a href="/Gallery/dream_rays.html#"><img src="/Images/Dream_Rays.jpg" title="Dream Rays" style="height:160px"/></a>
+                    <a href="/Gallery/he_is_here.html#"><img src="/Images/He.png" title="Hes Here" style="height:160px"/></a>
+                    <a href="/Gallery/silver_chao.html#"><img src="/Images/Silver Chao.png" title="Silver Chao" style="height:160px"/></a>
+                    <a href="/Gallery/silver_mood.html#"><img src="/Images/silver mood2.png" title="Silver Mood" style="height:160px"/></a>`'>The Butt</button>
+                    <h4>Chao OCs</h4>
+                    <h4 id="demo12">Click a button!</h4><button type="button" onclick='document.getElementById("demo12").innerHTML =`
+                    <a href="/Gallery/HemoSoni.html#"><img src="/Images/HemoSoni.png" title="Hemoglobin and Sonichao" style="height:160px"/></a>
+                    <a href="/Gallery/eggheadmemorial.html#"><img src="/Images/Egghead semi memorial.jpg" title="Egghead Semi-Memorial" style="height:160px"/></a>
+                    <a href="/Gallery/peacock_memorial.html#"><img src="/Images/Peacock Memorial.jpg" title="Peacock Memorial" style="height:160px"/></a>`'>A Button</button>
+                    <h3>Duck Life OCs [Gore Warning]</h3>
+                    <h4 id="demo5">Click button!</h4><button type="button" onclick='document.getElementById("demo5").innerHTML =`
+                    <a href="/Gallery/duck_chao.html#"><img src="/Images/Duck Chao! Revision.png" title="Duck Chao!" style="width:160px"/></a>
+                    <a href="/Gallery/bee_dodge.html#"><img src="/Images/Bee Dodge Basic.png" title="Beebee Fails to Dodge" style="height:160px"/></a>
+                    <a href="/Gallery/zombee.html#"><img src="/Images/Zombee.png" title="Zombee" style="height:160px"/></a>
+                    <a href="/Gallery/jex_test.html#"><img src="/Images/Jexity Illustration.png" title="Jexity Color Test" style="width:160px"/></a>
+                    <a href="/Gallery/horror_life.html#"><img src="/Images/Horror Life.png" title="Horror Life" style="height:160px"/></a>`'>Button</button>
+                    <h3>Collages and Edits</h3>
+                    <h4 id="demo6">¡Haga clic en el botón!</h4><button type="button" onclick='document.getElementById("demo6").innerHTML =`
+                    <a href="/Gallery/lemsigmoodboard.html#"><img src="/Images/lemsig moodboard.png" title="Lemsig Moodboard" style="height:160px"/></a>
+                    <a href="/Gallery/cake.html#"><img src="/Images/Edits/Cream_concept_four_color1.png" title="Cake" style="width:160px"/></a>
+                    <a href="/Gallery/letterpress.html#"><img src="/Images/Letterpress Collage.jpg" title="Letterpress Collage" style="height:160px"/></a>
+                    <a href="/Gallery/no_strength.html#"><img src="/Images/strength.jpg" title="No Strength in Community" style="width:160px"/></a>
+                    <a href="/Gallery/cycles.html#"><img src="/Images/Cycles.png" title="Cycles" style="width:160px"/></a>
+                    <a href="/Gallery/geometric.html#"><img src="/Images/Geometric_Abstract_Background.jpg" title="Geometric" style="width:160px"/></a>
+                    <a href="/Gallery/lamp_wc.html#"><img src="/Images/Lamplight Trees WC.jpg" title="Lamplight WC" style="width:160px"/></a>
+                    <a href="/Gallery/pakka_see_off.html#"><img src="/Images/Pakka Reptile Amphibian See Off.png" title="Pakka Reptile Amphibian See Off!" style="width:160px"/></a>
+                    <a href="/Gallery/screenshot_heart.html#"><img src="/Images/Screenshot In The Heart.jpg" title="Screenshot In The Heart" style="width:160px"/></a>
+                    <a href="/Gallery/untitled_collage.html#"><img src="/Images/collage.png" title="Trying to Polish My Golf Ball" style="width:160px"/></a>
+                    <a href="/Gallery/tails_sixty.html#"><img src="/Images/Tails_Sixty.png" title="Tails Sixty" style="width:160px"/></a>
+                    <a href="/Images/memes/Digital_Graphic_Pattern_23.png"><img src="/Images/memes/Digital_Graphic_Pattern_23.png" title="Sonic Hits the YMCA" style="width:160px"/></a>
+                    <a href="/Images/memes/Grassland 123.png"><img src="/Images/memes/Grassland 123.png" title="Amy Rose 1998" style="width:160px"/></a>`'>El Botón</button>
+                    <h3>Vegetable Fauna (Saplants)</h3>
+                    <h4 id="demo7">Smash that like button!</h4><button type="button" onclick='document.getElementById("demo7").innerHTML =`
+                    <a href="/Gallery/salad.html#"><img src="/Images/Salad.jpg" title="Salad" style="height:160px"/></a>
+                    <a href="/Gallery/fauna.html#"><img src="/Images/Vegetable Fauna.png" title="Mains" style="height:160px"/></a>`'>&#128077;</button></div>
+                    <!--<a href="/Gallery/.html#"><img src="/Images/SMALL THUMBNAIL" title="Title" style="height or width:160px"/></a> -->
+                    <!--<h4 id="demo#">Click the button!</h4><button type="button" onclick='document.getElementById("demo#").innerHTML =`ALL A HREFS`'>The Button</button> -->
+                    <!--the div should go after last thumbnail/button.-->
+
+                </div>
+            </div>
+            <div id="footer" class="win95Border" style="display: block;">
+                <div class="footer-wrapper"><!--<img src="/Asset/Censor_NC17c.gif" style="height:10px"/>--><a href="/nsfw_gallery.html#">Steak In The Daylight Secret Menu</a><!--<img src="/Asset/Censor_NC17c.gif" style="height:10px"/>--></div>
+            </div>
+        </div>
+    
+  </body>
+</html>

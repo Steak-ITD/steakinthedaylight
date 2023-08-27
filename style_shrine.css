@@ -1,0 +1,162 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: purple;
+                background-image: url('/Asset/nightskyeshrine.gif');
+                background-size: cover;
+                background-attachment: fixed;
+                font-family: sans-serif;
+                font-size: 14px;
+                line-height: 1.3em;
+                color: black;
+                /*cursor: url('/tailsmybeloved.gif'),auto; */
+                cursor: url(https://cur.cursors-4u.net/games/gam-1/gam81.cur), default;
+                cursor: url(https://cur.cursors-4u.net/games/gam-1/gam63.png), pointer;
+            }
+            
+            *{cursor: url(https://cur.cursors-4u.net/games/gam-1/gam81.cur), default;}
+
+
+            body a {
+                color: #6a5c22;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            #main-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                background-color: #d7ae68;
+            }
+
+            .flex {
+                display: flex;
+                margin-bottom: 5px;
+            }
+
+            .content-wrap {
+                margin-top: 0;
+            }
+            .responsive {
+            width: 100%;
+            height: auto;
+            }
+
+            #content-container {
+                width: 60%;
+                margin-bottom: 5px;
+                background-color: #ffd971;
+            }
+
+            #left-sidebar {
+                width: 150px;
+                margin-right: 10px;
+                margin-bottom: 5px;
+                height: 100%;
+                overflow: hidden;
+                background-color: #d7ae68;
+            }
+
+            #right-sidebar {
+                width: 150px;
+                margin-left: 10px;
+                margin-bottom: 5px;
+                height: 100%;
+                overflow: hidden;
+                background-color: #d7ae68;
+            }
+
+            #header-contained {
+                height: 150px;
+                margin-bottom: 0;
+                background-image: url('/Asset/Banner3.png');
+                background-position: center center;
+            }
+
+            #footer {
+                height: 30px;
+                text-align: center;
+                color: black;
+                background-color: #d7ae68;
+            }
+
+            #header-full {
+                display: none;
+                height: 150px;
+                margin-bottom: 0;
+                background-image: url('/Asset/Banner3.png');
+                background-position: center center;
+            }
+
+            #navbar-contained {
+                margin-bottom: 5px;
+            }
+
+            #navbar-full {
+                display: none;
+            }
+
+            .nav {
+                margin-left: 0;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 10px;
+                padding-top: 1em;
+                padding-bottom: 1em;
+                background-color: #d7ae68;
+                background: url('/Asset/geometric-seamless-pattern-with-retro-squares-vector.jpg');
+                background-repeat: repeat-x repeat-y;
+            }
+
+            .nav li {
+                display: inline-block;
+                padding-right: 20px;
+            }
+
+            .wrapper {
+                padding: 25px;
+                padding-top: 15px;
+            }
+
+            .sidebar-wrapper {
+                padding: 15px;
+                height: 100%;
+                overflow: hidden;
+            }
+
+            .footer-wrapper {
+                padding: 5px;
+            }
+
+            /* To keep your site RESPONSIVE, make sure this variable matches the width for --container-width UNLESS --container-width is 100% - if it's 100%, you'll need to manually input a breakpoint. */
+            @media only screen and (max-width: 800px) {
+                .flex {
+                    flex-wrap: wrap;
+                }
+
+                #left-sidebar {
+                    width: 100%;
+                    display: block;
+                    order: 2;
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                }
+
+                #right-sidebar {
+                    width: 100%;
+                    display: block;
+                    order: 3;
+                    margin-left: 0;
+                }
+
+                #content-container {
+                    width: 100%;
+                    display: block;
+                    order: 1;
+                    margin-bottom: 10px;
+                }
+
+            }
