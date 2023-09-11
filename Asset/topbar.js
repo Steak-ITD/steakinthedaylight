@@ -1,0 +1,12 @@
+var html = `
+<ul class="nav">
+<li><a href="/index2.html">Home</a></li>
+<li><a href="/gallery.html#">Artwork</a></li>
+<li><a href="/writing_gallery.html#">Writing</a></li>
+<li><a href="/larger_scale_projects.html#">Large Scale Projects</a></li>
+<li><a href="/more_links.html#">More Links</a></li>
+<li><a href="/about.html#">About</a></li>
+</ul>
+`;
+
+document.write(html);
