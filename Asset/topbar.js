@@ -6,6 +6,7 @@ var html = `
 <li><a href="/larger_scale_projects.html#">Large Scale Projects</a></li>
 <li><a href="/more_links.html#">More Links</a></li>
 <li><a href="/about.html#">About</a></li>
+<li><a href="/contact.html#">Contact</a></li>
 </ul>
 `;
 
