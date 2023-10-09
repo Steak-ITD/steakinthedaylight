@@ -11,6 +11,7 @@
         <div id="navbar-full" style="display: block;">
 <script src="/Asset/topbar.js"></script>
         </div>
+        <div id="main-container">
             <div class="content-wrap flex alignment">
                 <div id="content-container" style="flex-grow: 1;">
                     <div class="wrapper"><h1>TITLE</h1>
@@ -27,6 +28,7 @@
                     <script src="/Asset/comment.js"></script>
                     </div>
                 </div>
+            </div>
             </div>
             <div id="footer" style="display: block;">
                 <div class="footer-wrapper">Steak In The Daylight, Now 50% Off</div>
