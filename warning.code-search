@@ -1,0 +1,248 @@
+# Query: warning
+# ContextLines: 1
+
+57 results - 31 files
+
+gallery.html:
+  194                      <a href="/Gallery/peacock_memorial.html#"><img src="/Images/Peacock Memorial.jpg" title="Peacock Memorial" style="height:160px"/></a>`'>A Button</button>
+  195                      <a href="/Gallery/peacock_memorial.html#"><img src="/Images/Peacock Memorial.jpg" title="Peacock Memorial" style="height:160px"/></a>`'>A Button</button>
+  196:                     <h3>Duck Life OCs [Gore Warning]</h3>
+  196                      <h4 id="demo5">Click button!</h4><button type="button" onclick='document.getElementById("demo5").innerHTML =`
+  197                      <h4 id="demo5">Click button!</h4><button type="button" onclick='document.getElementById("demo5").innerHTML =`
+
+index.html:
+  34    <body>
+  35:   <p class="aligncenter"><img src="/Asset/Warning Byte New.png" width=70% max-width=1000 class="warn95Border"></p>
+  36    <h1 style="color:orange;"><span style="background-color:#000000;">THIS WEBSITE CONTAINS EXPLICIT MATERIAL.</span></h1>
+
+larger_scale_projects.html:
+  35                      <h1><img src="https://cutegif.neocities.org/graphics/animals/cats/cat6.gif" />StH Hedgehog Abuse AU<img src="https://cutegif.neocities.org/graphics/animals/cats/cat6.gif" /></h1>
+  36:                     <p><a href="/Diminished Attitude/WARNING.html">Highly WIPS, Work in Progress Sometimes.</a></p>
+  37                      <h1><img src="https://cutegif.neocities.org/graphics/animals/cats/cat6.gif" />Duck Life Lore<img src="https://cutegif.neocities.org/graphics/animals/cats/cat6.gif" /></h1>
+
+nsfw_gallery.html:
+   47                      <div class="wrapper"><img src= "https://upload.wikimedia.org/wikipedia/commons/c/cd/Ambigram_Love_Fuck_animated.gif" style="width:160px" />
+   48:                     <h2>Click thumbnails for page with description! Alt. text reveals title. Warning thumbnail alt. texts reveal content warnings.</h2>
+   49                      <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />The work on this page is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
+
+   57                      <a href="/Gallery/windycrest.html#"><img src="/Images/Windycrest Experiment New.png" title="Windycrest and Katsuya" style="height:160px"/></a>
+   58:                     <a href="/Gallery/silly_puppy.html#"><img src="/Asset/Warning Image.png" title="Silly Puppy CW: GURO" style="height:160px"/></a>
+   59:                     <a href="/Gallery/destroyed.html#"><img src="/Asset/Warning Image.png" title="Destroyed Dog CW: GURO" style="height:160px"/></a>
+   60:                     <a href="/Gallery/liz_untitled.html#"><img src="/Asset/Warning Image.png" title="Untitled CW: GURO NECROPHILIA" style="height:160px"/></a>
+   61:                     <a href="/Gallery/indulging.html#"><img src="/Asset/Warning Image.png" title="Indulging CW: GURO NECROPHILIA" style="height:160px"/></a>
+   62                      <a href="/Gallery/dino.html#"><img src="/Images/Dino.png" title="Dino" style="height:160px"/></a>
+
+   85                      <a href="/Gallery/boyish.html#"><img src="/Images/boyish charm.png" title="Boyish Charm" style="height:160px"/></a>
+   86:                     <a href="/Gallery/butterflies.html#"><img src="/Asset/Warning Image.png" title="Feeding the Butterflies" style="height:160px"/></a>
+   87                      <a href="/Gallery/sig_animal.html#"><img src="/Images/siganimalfull.png" title="Sig Animal" style="height:160px"/></a>
+
+   91                      <a href="/Gallery/cum_spirit.html"><img src="/Images/cum spirit.png" title="Cum Spirit" style="height:160px"/></a>
+   92:                     <a href="/Gallery/tentakill_1.html#"><img src="/Asset/Warning Image.png" title="Tentakill 1 CW: GURO" style="height:160px"/></a>
+   93                      <a href="/Gallery/masturbationtape.html#"><img src="/Images/masturbation tape.jpg" title="untitled masturbation tape" style="height:160px"/></a>
+
+   98                      <a href="/Gallery/blows.html"><img src="/Images/Sketches/lemsig-blow.jpg" title="untitled" style="height:160px"/></a>
+   99:                     <a href="/Images/Sketches/head arle.jpeg"><img src="/Asset/Warning Image.png" title="Head Arle CW: GURO" style="height:160px"/></a>
+  100                      <a href="/Images/Sketches/extra/beetlerat2.jpeg"><img src="/Images/Sketches/extra/beetlerat2.jpeg" title="Beetlerat 2" style="height:160px"/></a>
+
+  121                      <a href="/Gallery/untitled_sketch_nonrequest.html#"><img src="/Images/Sketches/novelamy.jpeg" title="untitled sketch non-request" style="height:160px"/></a>
+  122:                     <a href="/Gallery/sonitai.html#"><img src="/Asset/Warning Image.png" title="Sonitai CW Gore" style="height:160px"/></a>
+  123                      <a href="/Gallery/unclevertitle.html#"><img src="/Images/Sketches/de846f759a77bd36.jpeg" title="unclever title about roses" style="height:160px"/></a>
+
+  134                      <h4 id="demo3">Detonate the bomb!</h4><button type="button" onclick='document.getElementById("demo3").innerHTML =`
+  135:                     <a href="/Gallery/snake_sketch.html#"><img src="/Asset/Warning Image.png" title="Snake Sketch CW Guro" style="height:160px"/></a>
+  136                      <a href="/Gallery/kiyirin_juveneel.html#"><img src="/Images/Sketches/juveneel.jpg" title="Kiyirin and Juveneel" style="height:160px"/></a>
+
+  139                      <a href="/Gallery/velour.html#"><img src="/Images/Sketches/20200416_193527.jpg" title="Velour" style="height:160px"/></a>
+  140:                     <a href="/Gallery/cats_dreams.html#"><img src="/Asset/Warning Image.png" title="Cats Dreams CW: GURO" style="height:160px"/></a>`'>The Bomb</button>
+  141                      <h4>More</h4>
+
+writing_gallery.html:
+  137                      <div class="wrapper">
+  138:                     <h2>Content advisoriess on individual pages. Icon rating system:</h2>
+  139                      <h2 style= "color:#3ef700;">Green-General <img id="gspri" src="/Asset/G.png"></h2>
+
+Animations\animations.html:
+  48                      <div class="wrapper"><h1>Pond Dragon Scrapped Animation</h1>
+  49:                     <h2>Will play fine with Ruffle, ignore warning</h2>
+  50                      <p class="aligncenter"><iframe src="/Animations/Pond Dragon and Cup 20.swf" width=100% max-width=756 title="ponddragonswf"></iframe></p>
+
+Commissioned\beydia.html:
+  31                      <div class="wrapper"><h1>Beydia</h1>
+
+  35  
+  36:                     <img id="myImage" src="/Warning Image.png" style="width:756px">-->
+  37                      <a href="/Commissioned/beydia commission.png"><img src="/Commissioned/beydia commission.png" title="Click for full image" class="responsive"/></a>
+
+Commissioned\ninjanyatchi.html:
+  31                      <div class="wrapper"><h1>Ninjanyatchi</h1>
+
+  35  
+  36:                     <img id="myImage" src="/Warning Image.png" style="width:756px">-->
+  37                      <a href="/Commissioned/ninjanyatchi trad comm.png"><img src="/Commissioned/ninjanyatchi trad comm.png" title="Click for full image" class="responsive"/></a>
+
+Commissioned\sigandbugs.html:
+  18                      <div class="wrapper"><h1>Sig and Bugs</h1>
+  19:                                         <h2 style= "color:#b30000;">Content Warning: buuuugs!!</h2>
+  20                      <a href="/Commissioned/comm_steak_graybg.png"><img src="/Commissioned/comm_steak_graybg.png" title="Click for full image" class="responsive"/></a>
+
+Commissioned\tails.html:
+  31                      <div class="wrapper"><h1>Tails</h1>
+  32:                                         <!--<h2 style= "color:#b30000;">Content Warning:</h2>
+  33                                          <a href="/IMAGE">Click for full image!</a>
+
+  35  
+  36:                     <img id="myImage" src="/Warning Image.png" style="width:756px">-->
+  37                      <a href="/Commissioned/tails warmups.png"><img src="/Commissioned/tails warmups.png" title="Click for full image" class="responsive"/></a>
+
+Diminished Attitude\WARNING.html:
+  34    <body>
+  35:     <h1><img src="/Asset/Warning New.png" style=width:350px class="warn95Border"></h1>
+  36  
+
+Gallery\a_gallery_page_format.txt:
+  18                      <div class="wrapper"><h1>TITLE OF IMAGE</h1>
+  19:                                         <h2 style= "color:#b30000;">Content advisory:</h2>
+  20                                          <a href="/IMAGE">Click for full image!</a>
+
+  22  
+  23:                     <img id="myImage" src="/Asset/Warning Image.png" class="responsive">
+  24                      <a href="DIRECT IMAGE LINK"><img src="DIRECT IMAGE LINK" title="Click for full image" class="responsive"/></a>
+
+Gallery\amy_and_basil.html:
+  31                      <div class="wrapper"><h1>Amy and Basil</h1>
+  32:                                         <h2 style= "color:#b30000;">Content Advisory:The original story is very NSFW.</h2>
+  33                      <a href="/Images/afb7fb1717533823.jpeg"><img src="/Images/afb7fb1717533823.jpeg" title="Click for full image" class="responsive"/></a>
+
+Gallery\butterflies.html:
+  18                      <div class="wrapper"><h1>Feeding the Butterflies</h1>
+  19:                                         <h2 style= "color:#b30000;">Content Advisory: Gore, Intestines</h2>
+  20                                          <a href="/Images/feedingthebutterflies.png">Click for full image!</a>
+
+  22  
+  23:                     <img id="myImage" src="/Asset/Warning Image.png" class="responsive">
+  24                                          <p> The sig animal came back and he is as always friendly to bugs. Progressively drawing weirder and weirder things for this series. Also progressively getting better with using a tablet for linework, though still not at the level of digital only drawings. I've been enjoying using different pens for linework at least.</p>
+
+Gallery\cats_dreams.html:
+  31                      <div class="wrapper"><h1>Cat's Dreams</h1>
+  32:                                         <h2 style= "color:#b30000;">Content Advisory: Guro (Knife Insertion)</h2>
+  33                                          <a href="/Images/Sketches/cat's dreams small size.png">Click for full image</a><br>
+
+  35  
+  36:                     <img id='catpic' src="/Asset/Warning Image.png" class="responsive">
+  37                      <!--<a href="/Images/Sketches/cat's dreams small size.png" title="Click for full image" style="width:756px;"/></a>-->
+
+Gallery\ChompasaurTakoon.html:
+  31                      <div class="wrapper"><h1>Chompasaur and Takoon</h1>
+  32:                                         <h2 style= "color:#b30000;">Content Advisory: Rape</h2>
+  33                      <a href="/Images/ChompasaurTakoon.png"><img src="/Images/ChompasaurTakoon.png" title="Click for full image" class="responsive"/></a>
+
+Gallery\destroyed.html:
+  31                      <div class="wrapper"><h1>Destroyed Dog</h1>
+  32:                     <h2 style= "color:#b30000;">Content Advisory: Guro</h2>
+  33                                          <a href="/Images/Destroyed.png">Click for full image</a><br>
+
+  35  
+  36:                     <img id="myImage" src="/Asset/Warning Image.png" class="responsive">
+  37                      <!--<a href="/Destroyed.png"><img src="/Destroyed.png" title="Click for full image" style="width:756px;"/></a>-->
+
+Gallery\indulging.html:
+  31                      <div class="wrapper"><h1>Indulging</h1>
+  32:                                         <h2 style= "color:#b30000;">Content Advisory: Guro/Necro</h2>
+  33                                          <a href="/Images/Indulging.png">Click for full image</a><br>
+
+  35  
+  36:                     <img id="myImage" src="/Asset/Warning Image.png" class="responsive">
+  37                                          <p>Indulging in hedonistic joy. Uncaring for the consequences or the feelings of others. More selfcest -!Pico stuff. I like this one more.</p><script src="/Asset/comment.js"></script></div>
+
+Gallery\leglessraype.html:
+  31                      <div class="wrapper"><h1>Legless Ray</h1>
+  32:                                         <h2 style= "color:#b30000;">Content Advisory: Rape/Noncon</h2>
+  33                      <a href="/Images/Sketches/legless_raype.jpg"><img src="/Images/Sketches/legless_raype.jpg" title="Click for full image" class="responsive"/></a>
+
+Gallery\liz_untitled.html:
+  31                      <div class="wrapper"><h1>untitled</h1>
+  32:                                         <h2 style= "color:#b30000;">Content Advisory: Guro/Necro</h2>
+  33                                          <a href="/Images/Untitled (Headless).png">Click for full image</a><br>
+
+  35  
+  36:                     <img id="myImage" src="/Asset/Warning Image.png" class="responsive">
+  37                                          <p>I couldn't really think of a title for this that didn't sound stupid. Basically, it's selfcest. A hell version of Minus Pico "using" the regular version. It's pretty old by this point, not really my favorite.</p><script src="/Asset/comment.js"></script></div>
+
+Gallery\lovebug1.html:
+  31                      <div class="wrapper"><h1>Lovebug</h1>
+  32:                                         <h2 style= "color:#b30000;">Content Advisory:Bug sex!!!</h2>
+  33                      <a href="/Images/Lovebug sunset.png"><img src="/Images/Lovebug sunset.png" title="Click for full image" class="responsive"/></a>
+
+Gallery\silly_puppy.html:
+  31                      <div class="wrapper"><h1>Silly Puppy</h1>
+  32:                                                             <h2 style= "color:#b30000;">Content Advisory: Guro</h2>
+  33                                          <a href="/Images/silly puppy painted.png">Click for full image</a>
+
+  35  
+  36:                     <img id="myImage" src="/Asset/Warning Image.png" class="responsive">
+  37                                          <p>I like guro, I want to see that subject with different characters. This is actually based on something I saw on rule34.xxx, but it got deleted, so I remade it myself. </p><script src="/Asset/comment.js"></script></div>
+
+Gallery\snake_sketch.html:
+  31                      <div class="wrapper"><h1>Snake Sketch</h1>
+  32:                                         <h2 style= "color:#b30000;">Content Advisory:Gore, Bisection</h2>
+  33                                          <a href="/IMAGE">Click for full image!</a>
+
+  35  
+  36:                     <img id="myImage" src="/Asset/Warning Image.png" class="responsive">
+  37                                          <p> Black and white gore is a very nice aesthetic. It's also easy when you are at work and its late at night and you only have a graphite pencil and paper. I try to vary the kind of injuries I do and this time I split a whole being in half. It hopefully won't be the last time. </p><script src="/Asset/comment.js"></script></div>
+
+Gallery\sonitai.html:
+  31                      <div class="wrapper"><h1>Sonitai</h1>
+  32:                                         <h2 style= "color:#b30000;">Content Advisory: Assisted Romantic Suicide, A lot of blood</h2>
+  33                                          <a href="/IMAGE">Click for full image!</a>
+
+  35  
+  36:                     <img id="myImage" src="/Asset/Warning Image.png" class="responsive">
+  37                                          <p> Very spur of the moment thing I made for fun. Since it's a sketch I didn't focus much of making it look perfect. So it's messy, just like the situation it's depicting. It might not be that obvious from the expressions but this is entirly consensual. The reason why this happened is up to you.</p><script src="/Asset/comment.js"></script></div>
+
+Gallery\sylindra_why.html:
+  30                      <div class="wrapper"><h1>Sylindra, Why!?</h1>
+  31:                                         <h2 style= "color:#b30000;">Content Advisory: Rape/Non-con</h2>
+  32                      <a href="/Images/Sketches/sylindrawhy.jpg"><img src="/Images/Sketches/sylindrawhy.jpg" title="Click for full image" class="responsive"/></a>
+
+Gallery\tentakill_1.html:
+  31                      <div class="wrapper"><h1>Tentakill 1</h1>
+  32:                                         <h2 style= "color:#b30000;">Content Advisory:Guro (decapatation)</h2>
+  33                                          <a href="/IMAGE">Click for full image!</a>
+
+  35  
+  36:                     <img id="myImage" src="/Asset/Warning Image.png" class="responsive">
+  37                                          <p> An experiment in audacity and style. It's a special moment to have the first time drawing any <a href="https://puyonexus.com/wiki/File:PP7MiniArle.png">character</a> be something like this. I hope it happens more often. <a href="/Images/tentakill one.png">Alternate style</a> </p><script src="/Asset/comment.js"></script></div>
+
+Writing\a_story_page_format.txt:
+  18                      <h3>PART X OF Y</h3>
+  19:                     <p style= "color:#b30000; font-size:125%;"> RELEVANT CONTENT WARNINGS</p>
+  20                      <p style= "color:blue; font-size:120%;"> BEGINNING NOTES</p>
+
+Writing\stress_relief_1.html:
+  32                      <h3>PART 1 OF 5</h3>
+  33:                     <p style= "color:#b30000; font-size:125%;"> Guess what the content is.</p>
+  34                      <p style= "color:blue; font-size:120%;"> Based on one of my headcanons (Girlfriend does not like having her movement restricted) and a nightmare.</p>
+
+Writing\text_doodles.html:
+   30                      <h3>Presenting Text Doodles, a series of things I had ideas for but didn't feel like finishing! The Musical! In Theaters Christmas!<br>In order of most to least finished. I am most likely not going to finish any of these <!--except the first one, MAYBE--> so feel free to use the ideas in your own work!</h3>
+   31:                     <p style= "color:#b30000; font-size:125%;"> Relevant Content Advisories will be given as needed!</p>
+   32                      <hr>
+
+   86                      <p style= "color:#b30000; font-size:125%;"> Would have been very violent rape and guro (beheading and necrophilia).</p>
+   87:                      <p style= "color:blue; font-size:120%;"> I... I don't know. I barely got more than one sentence into this. I liked the concept in the warning, and the sheer hopelessness of the situation. I even planned to illustrate it. Clearly that didn't pan out!</p>
+   88                      <p>This night... it was supposed to be a peaceful night. She had just wanted to spend some alone time with her partner. The town they walked in didn't seem all that dangerous. And even if it was, it wouldn't be such a big deal. [adebabdeba that's all folks]</p> 
+
+  114                      <!--<h2>title here...</h2>
+  115:                     <p style= "color:#b30000; font-size:125%;"> warnings here...</p>
+  116                       <p style= "color:blue; font-size:120%;"> notes here...</p>
+
+Writing\Twine\Aurora Twine Test.html:
+  239  },{"./Misc.js":1,"./Passage.js":2,"./Story.js":3,"@babel/polyfill":5,"jquery":311,"marked":313,"underscore":315}],5:[function(require,module,exports){
+  240: ⟪ 362 characters skipped ⟫ded and may have consequences if different versions of the polyfills are applied sequentially. If you do need to load the polyfill more than once, use @babel/polyfill/noConflict instead to bypass the warning."),_global.default._babelPolyfill=!0;
+  241  
+
+Zines\zines.html:
+  42                      <p><iframe src="https://v6p9d9t4.ssl.hwcdn.net/html/5847552/index.html" class="responsive" title="Misery and Misanthropy"></iframe> </p>
+  43:                     <p>A zine made in 2022, at the peak of my sadness. One of them, anyway. A series of kind-of disconnected thoughts put into visual form via collage and drawing. It's been described to me as maximalist. Slight warning for crudely drawn violence and small sexuality at the end. Links to print versions can be found <a href="https://daytimesteak.itch.io/misery-and-misanthropy-mini-zine">here!</a></p>
+  44                      <h1>Shifting Gardens</h1>
