@@ -20,7 +20,7 @@
                     <p style= "color:blue; font-size:120%;"> BEGINNING NOTES</p>
                     <hr>
                     <p>STORY HERE. I CAN DRAFT THEM ON A03 TO GET NEEDED HTML LINES AUTOMATICALLY.</p> 
-                    <img src="/Asset/line-separator-clipart-31.png" style="width:756px" /> USE IF NEEDED DELETE IF NOT
+                    <img src="/Asset/line-separator-clipart-31.png" class="responsive" /> USE IF NEEDED DELETE IF NOT
                     <hr>
                     <p style= "color:blue; font-size:120%;"> END NOTES</p>
                     <p> <a href="LIST NEXT AND LAST PARTS FOR SERIES/MULTICHAPTERS"> NEXT/LAST PART/CHAPTER</a>
