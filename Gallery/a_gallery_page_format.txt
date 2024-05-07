@@ -23,7 +23,7 @@
                     <img id="myImage" src="/Asset/Warning Image.png" class="responsive">
                     <a href="DIRECT IMAGE LINK"><img src="DIRECT IMAGE LINK" title="Click for full image" class="responsive"/></a>
                                         <p> DESCRIPTION OF IMAGE </p>
-                                        <script src="/Asset/comment.js"></script></div>
+                                        .</div>
                                         
                 </div>
             </div>
