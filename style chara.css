@@ -1,0 +1,181 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: purple;
+                background-image: url('/Asset/background_loop2.gif');
+                background-size: cover;
+                background-attachment: fixed;
+                font-family: sans-serif;
+                font-size: 14px;
+                line-height: 1.3em;
+                color: black;
+                /*cursor: url('/tailsmybeloved.gif'),auto; */
+                cursor: url(https://cur.cursors-4u.net/games/gam-1/gam81.cur), auto;
+                cursor: url(https://cur.cursors-4u.net/games/gam-1/gam81.cur), pointer;
+            }
+            
+            *{cursor: url(https://cur.cursors-4u.net/games/gam-1/gam81.cur), default;}
+
+
+            body a {
+                color: #22506A;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            #main-container {
+                max-width: 1000px;
+                margin: 0 auto;
+                background-color: #7ed794;
+            }
+
+            .flex {
+                display: flex;
+                margin-bottom: 5px;
+            }
+
+            .content-wrap {
+                margin-top: 0;
+            }
+            
+            .responsive {
+            width: 100%;
+            height: auto;
+            }
+
+            .pointer {cursor: pointer;}
+
+            #content-container {
+                width: 60%;
+                margin-bottom: 5px;
+                background-color: #55cd3a;
+            }
+
+            #left-sidebar {
+                width: 150px;
+                margin-right: 10px;
+                margin-bottom: 5px;
+                height: 100%;
+                overflow: hidden;
+                background-color: #17c17a;
+            }
+
+            #right-sidebar {
+                width: 150px;
+                margin-left: 10px;
+                margin-bottom: 5px;
+                height: 100%;
+                overflow: hidden;
+                background-color: #17c17a;
+            }
+
+            #header-contained {
+                height: 150px;
+                margin-bottom: 0;
+                background-image: url('/Asset/Banner4.png');
+                background-position: center center;
+            }
+
+            #footer {
+                height: 30px;
+                text-align: center;
+                color: black;
+                background-color: #004a02;
+            }
+
+            #header-full {
+                display: none;
+                height: 150px;
+                margin-bottom: 0;
+                background-image: url('/Asset/Banner4.png');
+                background-position: center center;
+            }
+
+            #navbar-contained {
+                margin-bottom: 5px
+            }
+
+            #navbar-full {
+                display: none;
+            }
+
+            .nav {
+                margin-left: 0;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 10px;
+                padding-top: 1em;
+                padding-bottom: 1em;
+                background-color: #70ff6b;
+            }
+
+            .nav li {
+                display: inline-block;
+                padding-right: 20px;
+            }
+
+            .wrapper {
+                padding: 25px;
+                padding-top: 15px;
+            }
+
+            .sidebar-wrapper {
+                padding: 15px;
+                height: 100%;
+                overflow: hidden;
+            }
+
+            .footer-wrapper {
+                padding: 5px;
+            }
+            
+            .win95Border {
+	border: 20px solid transparent;
+	background: linear-gradient(180deg, rgb(255, 166, 200) 20px, rgb(255, 192, 140) 0px, rgb(255, 255, 185));
+	background-origin: border-box;
+	border-image: url(https://i.imgur.com/Pli0CJj.png) 44 round;
+	color:black;	
+}
+
+
+.checkerBorder {
+	border: 20px solid transparent;
+	background: linear-gradient(180deg, rgb(255, 166, 200) 20px, rgb(215, 126, 204) 0px, rgb(255, 191, 115));
+	background-origin: border-box;
+	border-image: url(/Asset/checkerBoard.png) 44 round;
+	color:black;	
+}
+
+
+            /* To keep your site RESPONSIVE, make sure this variable matches the width for --container-width UNLESS --container-width is 100% - if it's 100%, you'll need to manually input a breakpoint. */
+            @media only screen and (max-width: 800px) {
+                .flex {
+                    flex-wrap: wrap;
+                }
+
+                #left-sidebar {
+                    width: 100%;
+                    display: block;
+                    order: 2;
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                }
+
+                #right-sidebar {
+                    width: 100%;
+                    display: block;
+                    order: 3;
+                    margin-left: 0;
+                }
+
+                #content-container {
+                    width: 100%;
+                    display: block;
+                    order: 1;
+                    margin-bottom: 10px;
+                }
+
+            }

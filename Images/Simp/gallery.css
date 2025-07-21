@@ -2,9 +2,32 @@
 
 body {
     font-family: "Times New Roman", serif;
-    background-color: #d6d6d6;
+    background-color: #bc61c3;
+    background-image: url('/Asset/background_loop.gif');
+                background-size: cover;
+                background-attachment: fixed;
     font-size: 1.1em;
     padding: 30px;
+}
+
+ h1 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+
+ h2 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+
+ p {
+  text-align: center;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+
+ ul {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 a,
@@ -14,7 +37,7 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline overline #90ff28;
 }
 
 header,
