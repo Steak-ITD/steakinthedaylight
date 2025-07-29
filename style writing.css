@@ -1,6 +1,259 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
+:root {
+    --backgroundcolor: #d672e6;
+    --fontcolor: rgb(143, 78, 235);
+    --darkfontcolor: #000000;
+    --accentcolor: red;
+    --accenthovercolor: maroon;
+
+    --ficboxbg: rgba(212, 90, 90, 0.5);
+
+    --mainfont: monospace;
+    --headerfont: georgia;
+
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
+  background: var(--backgroundcolor);
+}
+  
+::-webkit-scrollbar-track {
+  border-radius: 0px;
+  width: 0px;  
+  background: var(--backgroundcolor);
+  border-color: var(--fontcolor); 
+  border-width: 1px;
+  border-style: solid;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background: var(--fontcolor);
+  border-color: var(--fontcolor); 
+  border-width: 1px;
+  border-style: solid;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--backgroundcolor);  
+}
+
+/* BASIC */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: var(--backgroundcolor);
+    font-family: var(--mainfont);
+    color: var(--fontcolor);
+}
+
+p {
+  margin: 5px 5px;
+}
+
+a {
+  color: var(--accentcolor);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accenthovercolor);
+}
+
+h1, h2, h3, h4 {
+  color: var(--headercolor);
+  font-family: var(--headerfont);
+  margin: 5px 0;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+}
+
+/* IDS & CLASSES */
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 600px;
+}
+
+#ficcontent {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 700px;
+  line-height: 1.5rem;
+}
+
+#ficcontent p {
+  margin: 20px 0;
+}
+
+#fic, #desc {
+  width: 100%;
+}
+
+#fic p {
+  text-indent: 1.2em;
+}
+
+#desc {
+  text-align: center;  
+}
+
+#gspri {
+    width: 30px;
+    height: 32px;
+    background-image: url(/Asset/rating-spritesheet.gif) -0px -0px;
+}
+#tspri {
+    width: 30px;
+    height: 32px;
+    background-image: url(/Asset/rating-spritesheet.gif) -30px -0px;
+}
+#mspri {
+    width: 30px;
+    height: 32px;
+    background-image: url(/Asset/rating-spritesheet.gif) -60px -0px;
+}
+#espri {
+    width: 30px;
+    height: 32px;
+    background-image: url(/Asset/rating-spritesheet.gif) -90px -0px;
+}
+
+hr {
+  border-width: 0 0 1px 0;
+  border-color: var(--fontcolor);
+  border-style: dashed;
+  margin: 20px 0;
+}
+
+.ficcontainer {
+  width: 100%;
+  background-color: var(--ficboxbg);
+  margin: 25px 0;
+}
+
+.fictitle {
+  max-height: 50px;
+  font-size: 20px;
+  width: 100%;
+  background-color: var(--fontcolor);
+  color: var(--darkfontcolor);
+  font-family: var(--headerfont);
+  font-weight: bold;
+}
+
+.fictitle a {
+  color: var(--darkfontcolor);
+}
+
+.fictitle a::after {
+  content: ' →';
+}
+
+.fictitle a:hover {
+  color: var(--accenthovercolor);
+}
+
+.ficrating {
+  width: 50px;
+  padding: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 35px;
+  background-color: var(--darkfontcolor);
+  color: var(--fontcolor);
+  font-family: var(--headerfont);
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.ficdescription, .infoboxscroll {
+  padding: 10px;
+}
+
+.ficdescription {
+  line-height: 1.5rem;
+}
+
+.infocontainer {
+  display: flex;
+  border-width: 1px 0 0 0;
+  border-color: var(--fontcolor);
+  border-style: solid;
+  max-height: 150px;
+}
+
+.ficinfo, .characterinfo {
+  width: 50%;
+}
+
+.infoheader {
+  font-size: 15px;
+  width: 100%;
+  background-color: var(--fontcolor);
+  color: var(--darkfontcolor);
+  font-family: var(--headerfont);
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 5px 10px;
+  height: 25px;
+}
+
+.characterinfo img {
+  max-height: 60px;
+  float: left;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.characterinfo hr {
+  clear: both;
+  border-width: 0 0 1px 0;
+  border-color: var(--fontcolor);
+  border-style: dashed;
+  margin: 5px;
+}
+
+.infoboxscroll {
+  width: 100%;
+  height: 125px;
+  overflow-y: auto;
+  font-size: 0.8em;
+  line-height: 1rem;
+}
+
+.infoboxscroll span {
+  background-color: var(--fontcolor);
+  color: var(--darkfontcolor);
+  padding: 0 3px;
+  font-weight: bold;
+  font-family: var(--headerfont);
+  font-variant: small-caps;
+  letter-spacing: 1px;
+}
+
+/* RESPONSIVENESS */
+
+@media all and (max-width: 600px) {
+
+  .characterinfo img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
             body {
                 margin: 0;
                 padding: 0;
@@ -137,15 +390,6 @@
 	background: linear-gradient(180deg, rgb(255, 166, 200) 20px, rgb(255, 192, 140) 0px, rgb(255, 255, 185));
 	background-origin: border-box;
 	border-image: url(/Asset/Pli0CJj.png) 44 round;
-	color:black;	
-}
-
-
-.checkerBorder {
-	border: 20px solid transparent;
-	background: linear-gradient(180deg, rgb(255, 166, 200) 20px, rgb(215, 126, 204) 0px, rgb(255, 191, 115));
-	background-origin: border-box;
-	border-image: url(/Asset/checkerBoard.png) 44 round;
 	color:black;	
 }
 
