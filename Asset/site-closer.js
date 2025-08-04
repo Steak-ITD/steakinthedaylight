@@ -12,14 +12,14 @@
 // </script>
 
 var sc = {};
-sc.closedPage = "closed.html";
-sc.closedDays = ["Sunday"];
-sc.weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+sc.closedPage = "/snowy.html";
+sc.closedHours = [0, 1, 2, 3, 4, 5, 6, 7];
+sc.hours = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23];
 
 // Trigger this site closer!
 function shutItDown() {
-    sc.dayNow = sc.weekDays[new Date().getDay()];
-    if (sc.closedDays.includes(sc.dayNow)) {
+    sc.hourNow = new Date().getHour();
+    if (sc.closedHours.includes(sc.hourNow)) {
         window.location.replace(sc.closedPage);
     }
 }
