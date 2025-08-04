@@ -18,7 +18,7 @@ sc.hours = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 
 // Trigger this site closer!
 function shutItDown() {
-    sc.hourNow = new Date().getHour();
+    sc.hourNow = new Date().getHours();
     if (sc.closedHours.includes(sc.hourNow)) {
         window.location.replace(sc.closedPage);
     }
