@@ -13,6 +13,9 @@
 	   sc.closedHours = [0, 1, 2, 3, 4, 5, 6, 7];
 	  shutItDown();
 	</script>
+  <head>
+    <script type="module" src="https://unpkg.com/mastodon-widget"></script>
+  </head>
   </head>
   <body>
         <div id="header-full" style="display: block;"></div>
@@ -53,9 +56,13 @@ document.write('<SCRIPT LANGUAGE="JavaScript1.1" SRC="https://ficring.neocities.
                     <h3> I post rambles here: <a href="https://denden.world/@bakersteak/" target="_blank">denden</a> - <a href="https://possums.gay/cookingsteak" target="blank">possums dot gay</a></h3>
                     <h3> I take questions here: <a href="https://revospring.net/@SteakITD">revospring</a> - <a href="https://steakywakey.straw.page/">strawpage</a></h3>
                     <hr>
-                    <img src="Images/Steak in the Daylight.png" width=250/>
+                    <mastodon-widget account="bakersteak@denden.world" limit="3"></mastodon-widget>
+
+    <mastodon-share text="What a cool idea!"><button>Show everybody!</button></mastodon-share>
                     <hr>
-                    <img src="/Asset/Gradient Map Background 2 Overlay.png" width=756 style="border:3px solid black" class="responsive"/>
+                    <img src="Images/Steak in the Daylight.png" width=250px/>
+                    <hr>
+                    <img src="/Asset/Gradient Map Background 2 Overlay.png" width=756px style="border:3px solid black" class="responsive"/>
                     </div>
                 </div>
             </div>
