@@ -6,7 +6,7 @@ body {
     background-image: url('/Asset/background_loop.gif');
                 background-size: cover;
                 background-attachment: fixed;
-    font-size: 1.1em;
+    font-size: 1.4em;
     padding: 30px;
 }
 
@@ -31,8 +31,12 @@ body {
 }
 
 a,
+
+a:link {
+    color:rgb(98, 182, 255)
+}
 a:visited {
-    color: #6138ff;
+    color: #b5a3ff;
     text-decoration: underline;
 }
 
