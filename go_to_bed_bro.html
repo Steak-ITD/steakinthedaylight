@@ -13,9 +13,65 @@
 	color:rgb(255, 255, 255);	
 }
 </style>
+<script type="text/javascript">
+// <![CDATA[
+var delay=5; // seconds until attack starts
+var seconds=60; // seconds until attack complete (from start)
+
+/***************************\
+*   Mock-Virus Text Effect  *
+* (c) 2005 mf2fm web-design *
+*  http://www.mf2fm.com/rv  *
+* DON'T EDIT BELOW THIS BOX *
+\***************************/
+var colours=new Array("#090", "#0f0", "#6f6", "#cfc", "transparent");
+var elems=new Array();
+var chars=new Array();
+var elmax=chmax=0;
+window.onload=function() { if (document.getElementById) {
+  var i, j, txt, parent, span, words;
+  getAllText(document.body);
+  for (i=0; i<elmax; i++) {
+    txt=elems[i].nodeValue;
+    parent=elems[i].parentNode;
+    words=elems[i].nodeValue.split(" ");
+    for (j=0; j<words.length; j++) {
+      span=document.createElement("span");
+      span.appendChild(document.createTextNode(words[j]));
+      parent.insertBefore(span, elems[i]);
+      if (j!=words.length-1) parent.insertBefore(document.createTextNode(" "), elems[i]);
+      chars[chmax++]=span;
+    }
+    parent.removeChild(elems[i]);
+  }
+  virus();
+}}
+
+function virus() {
+  var i, t, j;
+  for (i=0; i<chmax; i++) {
+    t=1000*(delay+seconds*Math.random());
+    for (j=0; j<colours.length; j++) setTimeout('chars['+i+'].style.backgroundColor="'+colours[j]+'"', t+100*j);
+    setTimeout('chars['+i+'].style.visibility="hidden"', t+100*j);
+  }
+  setTimeout('document.body.style.cursor="pointer";document.body.onclick=function(){top.location.href="http://www.mf2fm.com/rv/"};end()', 1000*(delay+seconds));
+}
+
+function end() {
+  document.body.style.backgroundColor=colours[elmax=++elmax%colours.length];
+  setTimeout("end()", 100);
+}
+
+function getAllText(el) {
+  if (el.nodeType==3 && !el.nodeValue.match(/^\s+$/)) elems[elmax++]=el;
+  if (!el.childNodes.length) return;
+  else for (var i=0; i<el.childNodes.length; i++) getAllText(el.childNodes[i]);
+}
+// ]]>
+</script>
     </head>
     <body>
-        <marquee class="warn95Border"><p>You have been snowed in. The computer monitor is your only source of light, but it too weakens under the chill.</p>
+        <p class="warn95Border">You have been snowed in. The computer monitor is your only source of light, but it too weakens under the chill.</p>
 <audio id="audio1" controls autoplay>
           <source src="/Asset/Music/MusMus-AMB-010.mp3"  type="audio/mp3">
           </audio>
