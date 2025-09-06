@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Steak</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/Asset/playlist.css" rel="stylesheet" type="text/css" media="all"/>
+    <script src="/Asset/playlist.js"></script>
     <script src="/Asset/redirect.js"></script>
 <script src="/Asset/site-closer.js"></script>
 	<script>
@@ -23,8 +25,10 @@
                 <div id="content-container" style="flex-grow: 1;" class="checkerBorder">
                     <div class="wrapper"><h1>About Steak</h1><img src="/Asset/29149.png" style="border:3px solid black" class="responsive"/>
                     <h2>Hello, little french fries!</h2>
+                    <img src="/Asset/BK-French-Fries.jpg" style="border: 3px solid black;" class="responsive"/>
                     <p>You can call me Steak, Lavender, or Skye. My website name is a play on the phrase "[X] After Dark". I'm autistic and have dysthymia and generalized anxiety disorder, which I mention because it affects how I interact with people. Besides that I would rather not list out a bunch of details. I'd prefer to be talked to and asked questions.</p>
                         <p>I made this weird little website to have a customized and personal area to showcase my art, writing, and other projects. It's been a few years now and I'm really enjoying it compared to only using social media and gallery websites. There are a lot of resources for putting one together. This is not the first one I've made though; I used to use Wix, but moved to a different host when I learned more HTML/CSS to have more freedom in design.</p>
+                        <img src="/Asset/紙張.jpg" style="border: 3px solid black;" class="responsive"/>
                         <h2>My Art</h2>
                         <p>I like to draw with pencil and paper and then from there use different mediums to create a full piece. Usually I will make linework and color digitally, but I also enjoy using colored pencils and painting with acrylics. My art style is still evolving, but my main inspiration is American and Japanese cartoon styles and animation meme styles between 2008-2015. I like to experiment with color the most, especially blending and gradients. I use a variety of digital art and editing programs, such as Paint Tool Sai, Krita, and Clip Studio Paint, and the Affinity software.</p>
                         <p>I draw a lot of animals, anthro and feral, and monsters. This is because there's a lot of variety for shapes and colors. The colors in my work are often warm and bright. I like to experiment with colors and the tone they can provide, how they might contrast with each other from the foreground to the background, and I've been wanting to play around with lower value higher saturation, as well as not be so afraid of using high saturation in general. I like to add effects such as chromatic abberation and dithtering to my work. I don't draw detailed backgrounds very often, but when I do they often involve nature. I enjoy the colors and clouds of the sky and how they interact with the landscapes below, so it comes up as a subject a lot. I also find grass, trees, and the ocean satisfying to recreate. I try to explore character emotion in my art and writing, as well as many different erotic and dark themes. I find it to be very relaxing and healing. I believe that art is an abstract and indirect way of expression and imagination, that doesn't represent reality in a one to one fashion.</p>
@@ -33,11 +37,35 @@
                         <h2>Interests</h2>
                         <p>I love video games! I play a lot of Nintendo games, rom hacks, and independent games, though my interests tend to be rather reserved. My favorite genres are RPGs, Metroidvania, Turn Based Strategy, and Platforming. Series I enjoy are Super Mario, Pokemon, Fire Emblem, Sonic the Hedgehog, and Puyo Puyo.</p>
                         <p>I also have interest in comics and graphic novels. I have been focusing more on smaller independent release such as zines and doujinshi. I enjoy loose and gestural art styles with unique color compositions.</p>
+                        <h2>Songs I Like</h2>
+                        <div class="simple-audio-player" id="simp" data-config='{"shide_top":false,"shide_btm":false,"auto_load":false}'>
+  <div class="simp-playlist">
+    <ul>
+      <li><span class="simp-source" data-src="/Asset/Music/MusMus-BGM-002.mp3">Ayurveda</span><span class="simp-desc">Musmus</span></li>
+      <li><span class="simp-source" data-src="https://www.script-tutorials.com/demos/363/data/05.mp3">Artist 5</span></li>
+      <li><span class="simp-source" data-src="https://www.dropbox.com/s/6pays95q2a9jrsf/2020.01.02.mp3?dl=1" data-cover="https://i.postimg.cc/sDBycWS8/NMS-2019.jpg">Nightmare Side</span><span class="simp-desc">Set Stori</span></li>
+      <li><span class="simp-source" data-src="https://www.dropbox.com/s/k011ag91uktonbv/Angklung%20Preman%20Pensiun.mp3?dl=1">Angklung Preman Pensiun</span></li>
+      <li><span class="simp-source" data-src="https://www.dropbox.com/s/prgte33m86n9ce7/Canon%20Rock%20%28JerryC%29%20-%20funtwo.mp3?dl=1">Canon Rock (JerryC)</span><span class="simp-desc">by Funtwo</span></li>
+      <li><span class="simp-source" data-src="http://listento.ardanradio.com:1059/;">105.9 FM Ardan Radio</span><span class="simp-desc">Streaming Radio</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/78_jailhouse-rock_elvis-presley-jerry-leiber-mike-stoller_gbia0080595b/Jailhouse%20Rock%20-%20Elvis%20Presley%20-%20Jerry%20Leiber-restored.mp3">Jailhouse Rock</span><span class="simp-desc">Elvis Presley</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/J._Period_and_Michael_Jackson_-_Man_Or_The_Music-2010/17%20Smooth%20Criminal.mp3">Smooth Criminal</span><span class="simp-desc">Michael Jackson</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/OldPop_256/VillagePeople-Y.m.c.a.mp3">Y.M.C.A</span><span class="simp-desc">Village People</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/chuckberryjohnnyb.goode/Chuck%20Berry%20-%20Johnny%20B.%20Goode.mp3">Johnny B. Goode</span><span class="simp-desc">Chuck Berry</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/AnimalsTheHouseOfTheRisingSun_201811/Animals%20-%20The%20House%20Of%20The%20Rising%20Sun.mp3">House of the Rising Sun</span><span class="simp-desc">The Animals</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/DontStopMeNow_255/Queen-DontStopMeNow.mp3">Don't Stop Me Now</span><span class="simp-desc">Queen</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/NeverGonnaGiveYouUpOriginal/Never%20Gonna%20Give%20You%20Up%20Original.mp3">Never Gonna Give You Up</span><span class="simp-desc">Rick Astley</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/gunsnrosessweetchildomine_202003/Guns%20N%27%20Roses%20-%20Sweet%20Child%20%27O%20Mine.mp3">Sweet Child O' Mine</span><span class="simp-desc">Guns N' Roses</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/01.TheFinalCountdown/01.%20The%20Final%20Countdown.mp3">The Final Countdown</span><span class="simp-desc">Europe</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/1MyHeartWillGoOnLoveThemeFromTitanic/1%20-%20My%20Heart%20Will%20Go%20On%20%28Love%20Theme%20from%20_Titanic_%29.mp3">My Heart Will Go On</span><span class="simp-desc">Céline Dion</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/tntvillage_323140/John%20Lennon%20-%20Imagine/01%20Imagine.mp3">Imagine</span><span class="simp-desc">John Lennon</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/TheBeatles1970HeyJudeAppleRecords6e062.0434807HeyJude/The%20Beatles%20-%201970%20-%20Hey%20Jude%20%28Apple%20Records%3B%20%236e%20062.04348%29_07%20-%20Hey%20Jude.mp3">Hey Jude</span><span class="simp-desc">The Beatles</span></li>
+      <li><span class="simp-source" data-src="https://archive.org/download/TakeMeHomeCountryRoad/JohnDenver-TakeMeHomeCountryRoad.mp3">Take Me Home, Country Roads</span><span class="simp-desc">John Denver</span></li>
+    </ul>
+  </div>
+  <div class="simp-footer">Made with 💖 &amp; 🙌 by <a href="https://bit.ly/sekedus" target="_blank" title="Sekedus">Sekedus</a></div>
+</div>
                     </div>
                     <div>
-                    <div>
-                    <script src="/Asset/winamp.js"></script>
-                    </div>
                     </div>
                 </div>
             </div>
