@@ -1,18 +1,4 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-:root {
-  --contentbg: #f9f9f9;
-  --boxbg: #9fe8f6;
-  --bg: #6c69bd;
-  --brightaccent: #9aa6f4;
-  --lowaccent: #000000;
-  --link: #2b1fb4;
-  --lighttext: #775952;
-  --text: #27211d;
-}
-
-            body {
+              body {
                 margin: 0;
                 padding: 0;
                 background-color: purple;
@@ -143,118 +129,188 @@
                 padding: -5px;
             }
             
-            .wiki {
-  display: inline;
-  padding: 1em;
-}
+            #container {
+                max-width: 900px;
+                margin: 0 auto;
+            }
 
-.wikitext>details summary {
-  font-size: 2em;
-  color: var(--darkaccent);
-  font-family: "Darumadrop One", "Monofonto", serif;
-  font-weight: 900;
-  text-decoration: underline;
-  max-width: 100%;
-}
+            a {
+                color: #0066cc;
+                font-weight: normal;
+                text-decoration:none;
+            }
 
-.wikitext>details summary:hover {
-  color: var(--accent);
-}
+            h1 a, h2 a, h3 a, h4 a, h5 a {
+                color: #000000;
+                text-decoration:none;
+            }
 
-.infobox {
-  display: inline;
-  max-width: 24%;
-  width: 100%;
-  padding: .5em;
-  font-size: 13px;
-  float: right;
-  clear: right;
-  border: 1px solid var(--brightaccent);
-  height: 100%;
-  background-color: var(--boxbg);
-  border-radius: 10px;
-  outline: 2px solid var(--contentbg);
-  margin-left: 1em;
-  margin-bottom: 1em;
-}
-
-.infobox p {
-  text-indent: 0em;
-}
-
-.infobox img {
-  border-radius: .5em;
-  display: flex;
-  justify-content: center;
-}
-
-a:link,
-a:visited {
-  color: var(--link);
-}
-
-h1 {
-  font-size: 4rem;
-  color: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  background-color: var(--brightaccent);
-  margin: 0;
-  border-radius: 8px 8px 0 0;
-  padding: .1em;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-}
-
-h3 {
-  font-size: 2rem;
-  margin-top: 2rem;
-}
-
-h4 {
-  font-size: 1.44rem;
-}
-
-h5 {
-  font-size: 1.2rem;
-  margin: 0;
-}
-
-h6 {
-  font-size: 0.96rem;
-}
-
-h1,
-h2,
-h3 {
-  line-height: 1.1;
-}
-
-h2 {
-  border-bottom: 2px solid var(--lowaccent);
-}
-
-h4 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 0px;
-  font-size: 14px;
-  background: var(--brightaccent);
-  text-align: CENTER;
-  border-radius: 5px;
-  font-weight: 100;
-}
-
-h5 {
-  color: var(--lowaccent);
-  margin: 0;
-}
+            a:hover {
+                color: #75b3f1;
+            }
 
 
+            #header {
+                width: 100%;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                background-position: center;
+                background-color: #d4d4d4;
+                height: 150px;
+            }
+
+            h1, h2 {
+                text-align: left;
+                border-bottom: 5px rgb(111, 133, 255) solid;
+                width: 100%;
+            }
+
+            h4 {
+                text-align: left;
+                font-size: 19px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            footer {
+                background-color: #E7E9EB;
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .imagehere {
+                height: 150px;
+                width: 150px;
+                margin-left:auto;
+                margin-right:auto;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: auto 100%;
+            }
+
+            .charactermain-image {
+                height: 350px;
+                width: 300px;
+                margin-left:auto;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                background-position: center;
+                border: 1px black solid;
+            }
+
+            .galleryimage {
+              float: left;
+              width: 170px;
+              height: 170px;
+              background-repeat: no-repeat;
+              background-size: auto 100%;
+              background-position: center;
+              margin: 10px;
+              border: 1px black solid;
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: #000000;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            h4 {
+                font-weight: 100;
+            }
+
+
+            /* Thanks to LetoLeGaosaure on Pillowfort for pointing this out! */
+            h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+                color: inherit;
+            } 
+            /* -------- */
+
+            .box {
+                background-color: #E7E9EB;
+                border: 1px solid #000000;
+                padding: 10px;
+            }
+
+            .gallery {
+                background-color: none;
+                padding: 10px;
+                overflow: hidden;
+            }
+
+            #toc {
+                float: left;
+                text-align:left;
+                width: 200px;
+                margin-right:auto;
+                margin: 0px 40px 10px 0px;
+                background-color: #E7E9EB;
+                border: 1px solid #000000;
+            }
+
+            ol {
+                padding-left: 8%;
+                list-style-type: circle;
+                }
+
+            li {
+                padding-bottom: 3px;
+                }
+
+            .characterprofile {
+              float: right;
+              width: 300px;
+              margin-left:auto;
+              margin: 0px 0px 30px 30px;
+              background-color: #b6dbff;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+
+            table {
+              border-collapse: collapse;
+              width: 300px;
+              background-color: #E7E9EB;
+              border-top: 1px solid black;
+              border-bottom: 1px solid black;
+            }
+
+            tbody {
+              margin: 3px 10px;
+            }
+
+            td, th {
+              text-align: left;
+              padding: 3px 10px;
+              border-right: 1px solid black;
+              border-left: 1px solid black;
+            }
+
+            td:nth-child(odd) {
+              font-weight: 600;
+                text-align: right;
+            }
+
+            tr:nth-child(odd) {
+              background-color: #e0e2e4;
+            }
+            
             /* To keep your site RESPONSIVE, make sure this variable matches the width for --container-width UNLESS --container-width is 100% - if it's 100%, you'll need to manually input a breakpoint. */
             @media only screen and (max-width: 800px) {
                 .flex {
@@ -282,22 +338,41 @@ h5 {
                     order: 1;
                     margin-bottom: 10px;
                 }
+              }
 
-                .wiki {
-    display: flex;
-    flex-direction: column;
-  }
+              /* MEDIA QUERY */
 
-  .infobox {
-    max-width: 95%;
-    margin-bottom: 1em;
-    font-size: 1em;
-    text-align: center;
-    margin-left: 0;
-  }
+            @media only screen and (max-width: 1350px) {
+              main {
+                float: left;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                margin: 10px 0px 0px 00px;
+                padding: 0px;
+              }
+            }
 
-  .wikitext {
-    width: 100%;
-  }
+            @media only screen and (max-width: 1100px) {
+              table, .characterprofile {
+                float: left;
+                width: 100%;
+                margin: 10px 0px 0px 00px;
+              }
+                
+            .characterprofile {
+                float: left;
+                width: 100%;
+                margin: 0px 0px 30px 0px;
+              }
+                
+            main {
+                padding: 20px;
+            }
+                
+            .charactermain-image {
+                width: 100%;
+                margin: 0px 0px 10px 00px;
+              }
 
             }
