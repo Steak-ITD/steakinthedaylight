@@ -1,0 +1,378 @@
+              body {
+                margin: 0;
+                padding: 0;
+                background-color: purple;
+                background-image: url('/Asset/background_loop2.gif');
+                background-size: cover;
+                background-attachment: fixed;
+                font-family: sans-serif;
+                font-size: 14px;
+                line-height: 1.3em;
+                color: black;
+                /*cursor: url('/tailsmybeloved.gif'),auto; */
+                cursor: url(https://cur.cursors-4u.net/games/gam-1/gam81.cur), auto;
+                cursor: url(https://cur.cursors-4u.net/games/gam-1/gam81.cur), pointer;
+            }
+            
+            *{cursor: url(https://cur.cursors-4u.net/games/gam-1/gam81.cur), default;}
+
+
+            body a {
+                color: #22506A;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            #main-container {
+                max-width: 1000px;
+                margin: 0 auto;
+                background-color: #7ed794;
+            }
+
+            .flex {
+                display: flex;
+                margin-bottom: 5px;
+            }
+
+            .content-wrap {
+                margin-top: 0;
+            }
+            
+            .responsive {
+            width: 100%;
+            height: auto;
+            }
+
+            .pointer {cursor: pointer;}
+
+            #content-container {
+                width: 60%;
+                margin-bottom: 5px;
+                background-color: #55cd3a;
+            }
+
+            #left-sidebar {
+                width: 150px;
+                margin-right: 10px;
+                margin-bottom: 5px;
+                height: 100%;
+                overflow: hidden;
+                background-color: #17c17a;
+            }
+
+            #right-sidebar {
+                width: 150px;
+                margin-left: 10px;
+                margin-bottom: 5px;
+                height: 100%;
+                overflow: hidden;
+                background-color: #17c17a;
+            }
+
+            #header-contained {
+                height: 150px;
+                margin-bottom: 0;
+                background-image: url('/Asset/Banner4.png');
+                background-position: center center;
+            }
+
+            #footer {
+                height: 30px;
+                text-align: center;
+                color: black;
+                background-color: #004a02;
+            }
+
+            #header-full {
+                display: none;
+                height: 150px;
+                margin-bottom: 0;
+                background-image: url('/Asset/Banner4.png');
+                background-position: center center;
+            }
+
+            #navbar-contained {
+                margin-bottom: 5px
+            }
+
+            #navbar-full {
+                display: none;
+            }
+
+            .nav {
+                margin-left: 0;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 10px;
+                padding-top: 1em;
+                padding-bottom: 1em;
+                background-color: #70ff6b;
+            }
+
+            .nav li {
+                display: inline-block;
+                padding-right: 20px;
+            }
+
+            .wrapper {
+                padding: 25px;
+                padding-top: 15px;
+            }
+
+            .sidebar-wrapper {
+                padding: 15px;
+                height: 100%;
+                overflow: hidden;
+            }
+
+            .footer-wrapper {
+                padding: -5px;
+            }
+            
+            #container {
+                max-width: 900px;
+                margin: 0 auto;
+            }
+
+            a {
+                color: #0066cc;
+                font-weight: normal;
+                text-decoration:none;
+            }
+
+            h1 a, h2 a, h3 a, h4 a, h5 a {
+                color: #000000;
+                text-decoration:none;
+            }
+
+            a:hover {
+                color: #75b3f1;
+            }
+
+
+            #header {
+                width: 100%;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                background-position: center;
+                background-color: #d4d4d4;
+                height: 150px;
+            }
+
+            h1, h2 {
+                text-align: left;
+                border-bottom: 5px rgb(111, 133, 255) solid;
+                width: 100%;
+            }
+
+            h4 {
+                text-align: left;
+                font-size: 19px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            footer {
+                background-color: #E7E9EB;
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .imagehere {
+                height: 150px;
+                width: 150px;
+                margin-left:auto;
+                margin-right:auto;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: auto 100%;
+            }
+
+            .charactermain-image {
+                height: 350px;
+                width: 300px;
+                margin-left:auto;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                background-position: center;
+                border: 1px black solid;
+            }
+
+            .galleryimage {
+              float: left;
+              width: 170px;
+              height: 170px;
+              background-repeat: no-repeat;
+              background-size: auto 100%;
+              background-position: center;
+              margin: 10px;
+              border: 1px black solid;
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: #000000;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            h4 {
+                font-weight: 100;
+            }
+
+
+            /* Thanks to LetoLeGaosaure on Pillowfort for pointing this out! */
+            h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+                color: inherit;
+            } 
+            /* -------- */
+
+            .box {
+                background-color: #E7E9EB;
+                border: 1px solid #000000;
+                padding: 10px;
+            }
+
+            .gallery {
+                background-color: none;
+                padding: 10px;
+                overflow: hidden;
+            }
+
+            #toc {
+                float: left;
+                text-align:left;
+                width: 200px;
+                margin-right:auto;
+                margin: 0px 40px 10px 0px;
+                background-color: #E7E9EB;
+                border: 1px solid #000000;
+            }
+
+            ol {
+                padding-left: 8%;
+                list-style-type: circle;
+                }
+
+            li {
+                padding-bottom: 3px;
+                }
+
+            .characterprofile {
+              float: right;
+              width: 300px;
+              margin-left:auto;
+              margin: 0px 0px 30px 30px;
+              background-color: #b6dbff;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+
+            table {
+              border-collapse: collapse;
+              width: 300px;
+              background-color: #E7E9EB;
+              border-top: 1px solid black;
+              border-bottom: 1px solid black;
+            }
+
+            tbody {
+              margin: 3px 10px;
+            }
+
+            td, th {
+              text-align: left;
+              padding: 3px 10px;
+              border-right: 1px solid black;
+              border-left: 1px solid black;
+            }
+
+            td:nth-child(odd) {
+              font-weight: 600;
+                text-align: right;
+            }
+
+            tr:nth-child(odd) {
+              background-color: #e0e2e4;
+            }
+            
+            /* To keep your site RESPONSIVE, make sure this variable matches the width for --container-width UNLESS --container-width is 100% - if it's 100%, you'll need to manually input a breakpoint. */
+            @media only screen and (max-width: 800px) {
+                .flex {
+                    flex-wrap: wrap;
+                }
+
+                #left-sidebar {
+                    width: 100%;
+                    display: block;
+                    order: 2;
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                }
+
+                #right-sidebar {
+                    width: 100%;
+                    display: block;
+                    order: 3;
+                    margin-left: 0;
+                }
+
+                #content-container {
+                    width: 100%;
+                    display: block;
+                    order: 1;
+                    margin-bottom: 10px;
+                }
+              }
+
+              /* MEDIA QUERY */
+
+            @media only screen and (max-width: 1350px) {
+              main {
+                float: left;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                margin: 10px 0px 0px 00px;
+                padding: 0px;
+              }
+            }
+
+            @media only screen and (max-width: 1100px) {
+              table, .characterprofile {
+                float: left;
+                width: 100%;
+                margin: 10px 0px 0px 00px;
+              }
+                
+            .characterprofile {
+                float: left;
+                width: 100%;
+                margin: 0px 0px 30px 0px;
+              }
+                
+            main {
+                padding: 20px;
+            }
+                
+            .charactermain-image {
+                width: 100%;
+                margin: 0px 0px 10px 00px;
+              }
+
+            }
