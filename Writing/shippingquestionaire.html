@@ -4,9 +4,293 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipping Questionaire and Charts</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/style writing.css" rel="stylesheet" type="text/css" media="all">
     <script src="/Asset/redirect.js"></script>
   </head>
+  <style>
+    .shipchart {
+	  margin-top:20px;
+	  font-family: sans-serif;
+	  text-align:center;
+	  font-size:15px;
+	  display:table;
+	  table-layout:fixed;
+	}
+	
+	.shiphead {
+	  border-radius:10px;
+	  font-weight:normal;
+	  width:120px;
+	  padding:7px;
+	}
+	
+	.shipline {
+	  display:flex;
+	  column-gap:5px;
+	  flex-wrap:wrap;
+	}
+	
+	.shipwrap {
+	  display:flex;
+	  border:1px dotted black;
+	}
+	
+	.shipSigurd {
+	  background-color:#0f22f7;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_sigurd_fe04.png");
+	}
+	
+	.shipDeidre {
+	  background-color:#af7ed5;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_deirdre_fe04.png");
+	}
+	.shipTailtyu {
+	  background-color:#c253f5;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_tailtiu_fe04.png");
+	}
+    .shipLewyn {
+	  background-color:#00a752;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_lewyn_01_fe04.png");
+	}
+    .shipClaud {
+	  background-color:#a78800;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_claud_fe04.png");
+	}
+    .shipSylvia {
+	  background-color:#00a752;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_silvia_fe04.png");
+	}
+    .shipAlec {
+	  background-color:#02ff45;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_alec_fe04.png");
+	}
+    .shipArden {
+	  background-color:#005900;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_arden_fe04.png");
+	}
+    .shipAyra {
+	  background-color:#290165;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_ayra_fe04.png");
+	}
+    .shipLex {
+	  background-color:#0b00a7;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_lex_fe04.png");
+	}
+    .shipAzelle {
+	  background-color:#fd5151;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_azelle_fe04.png");
+	}
+    .shipLachesis {
+	  background-color:#ffd900;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_lachesis_fe04.png");
+	}
+    .shipMidir {
+	  background-color:#9fff46;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_midir_fe04.png");
+	}
+    .shipNoish {
+	  background-color:#df8d00;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_naoise_fe04.png");
+	}
+    .shipErin {
+	  background-color:#00eeb6;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_erinys_fe04.png");
+	}
+    .shipEdainn {
+	  background-color:#f2ff01;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_edain_fe04.png");
+	}
+    .shipBrigid {
+	  background-color:#ffea00;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_brigid_fe04.png");
+	}
+    .shipBeowolf {
+	  background-color:#cbcdb3;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_beowolf_fe04.png");
+	}
+    .shipDew {
+	  background-color:#00a7a4;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_dew_fe04.png");
+	}
+    .shipFinn {
+	  background-color:#3174fb;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_finn_01_fe04.png");
+	}
+    .shipEthlin {
+	  background-color:#d551d3;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_ethlyn_fe04.png");
+	}
+    .shipQuan {
+	  background-color:#a73200;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_quan_fe04.png");
+	}
+    .shipEldigan {
+	  background-color:#f40202;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_eldigan_fe04.png");
+	}
+    .shipArvis {
+	  background-color:#a70000;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen1/Portrait_arvis_01_fe04.png");
+	}
+    </style>
+    <style>
+        .shipSeliph {
+	  background-color:#3737ff;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_seliph_fe04.png");
+	}
+        .shipTine {
+	  background-color:#ef7afa;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_tine_fe04.png");
+	}
+        .shipAres {
+	  background-color:#000000;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_ares_fe04.png");
+	}
+        .shipArthur {
+	  background-color:#cc98ff;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_arthur_fe04.png");
+	}
+        .shipCed {
+	  background-color:#00a752;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_ced_fe04.png");
+	}
+        .shipFee {
+	  background-color:#00f476;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_fee_fe04.png");
+	}
+        .shipJulia {
+	  background-color:#bd14ec;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_julia_fe04.png");
+	}
+        .shipJulius {
+	  background-color:#3f0e0e;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_julius_fe04.png");
+	}
+        .shipLana {
+	  background-color:#e79717;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_lana_fe04.png");
+	}
+        .shipLarcei {
+	  background-color:#3f34a2;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_larcei_fe04.png");
+	}
+        .shipLeif {
+	  background-color:#fffcf0;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_leif_fe04.png");
+	}
+        .shipLene {
+	  background-color:#21e12e;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_lene_fe04.png");
+	}
+        .shipLester {
+	  background-color:#cb9b0a;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_lester_fe04.png");
+	}
+        .shipNanna {
+	  background-color:#e4e734;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_nanna_fe04.png");
+	}
+        .shipOifey {
+	  background-color:#95ae66;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_oifey_02_fe04.png");
+	}
+        .shipPatty {
+	  background-color:#00ffee;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_patty_fe04.png");
+	}
+        .shipScathach {
+	  background-color:#264a7b;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_scáthach_fe04.png");
+	}
+        .shipShannan {
+	  background-color:#5900a7;
+	  height:64px;
+	  width:48px;
+	  background-image:url("/Asset/FEGen2/Portrait_shannan_02_fe04.png");
+	}
+    </style>
   <body>
 <div id="header-full" style="display: block;"></div>
         <div id="navbar-full" style="display: block;">
@@ -16,7 +300,7 @@
             </div>
             <div class="content-wrap flex alignment">
                 <div id="content-container" style="flex-grow: 1;">
-                    <div class="wrapper"><h1>Shipping Questionnaire and Charts</h1>
+                    <div class="wrapper"><!--<h1>Shipping Questionnaire and Charts</h1>
                     <p style= "color:blue; font-size:120%;"> Created by yukipri_art @ twitter. I am just doing them all.</p>
                     <hr>
                     <img src="/Asset/Shipping Questionnaire.jpg" class="responsive" />
@@ -36,7 +320,46 @@
                     <li>When I still participated in fandom, I got into Ludwig/Rosalina(SMB) because it was popular amongst the current koopaling fan club. I used to be more into Tails/Cream(StH). I still like this one, just not as much nowadays. The last few are Steven/Wallace(Pokemon), Brendan/May(Pokemon), and Blue/Red(Pokemon).</li>
                     <li>I see it as more of a legal thing. You do get benefits like tax, social security and IRA stuff (in the US). I think the symbolism of a neverending bond is very lovely, and I do like the scenery and clothing associated with marriage, but the act itself, the legal binding isn't too neccessary to me.</li>
                     <li>I don't get invested in them too often. Though I have created one for at least one of my favorite pairings. My thing with them is, a lot tend to just look like fusions of the characters whom raise them. Also, it kind of takes attention away from the pairing itself.</li>
-                    </ol> 
+                    </ol>-->
+                    <h1>Shipping Fun</h1><h3>Various things involving pairing characters together.</h3>
+                    <hr>
+                    <h1>Genealogy of the Holy War Ship Tier List</h1>
+                    <p>Thank you to Ebi for the ship list html/css!</p>
+                    <table class="shipchart">
+              <tr>
+              <th class="shiphead" style="background-color:hotpink;border:1px solid deeppink;">Every Playthrough!</th>
+              <td class="shipline"><span class="shipwrap"><span class="shipSigurd"></span><span class="shipDeidre"></span></span><span class="shipwrap"><span class="shipLewyn"></span><span class="shipTailtyu"></span></span><span class="shipwrap"><span class="shipSylvia"></span><span class="shipClaud"></span></span><span class="shipwrap"><span class="shipSeliph"></span><span class="shipTine"></span></span><span class="shipwrap"><span class="shipFee"></span><span class="shipArthur"></span></span><span class="shipwrap"><span class="shipLene"></span><span class="shipAres"></span></span></td>
+              </tr>
+              <tr>
+              <th class="shiphead" style="background-color:rgb(255, 0, 0);border:1px solid rgb(148, 0, 0);">Pretty Sweet!</th>
+              <td class="shipline"><span class="shipwrap"><span class="shipAyra"></span><span class="shipArden"></span></span><span class="shipwrap"><span class="shipAyra"></span><span class="shipLex"></span></span><span class="shipwrap"><span class="shipDew"></span><span class="shipBrigid"></span></span><span class="shipwrap"><span class="shipLachesis"></span><span class="shipBeowolf"></span></span><span class="shipwrap"><span class="shipLachesis"></span><span class="shipFinn"></span></span><span class="shipwrap"><span class="shipNoish"></span><span class="shipErin"></span></span>
+            <span class="shipwrap"><span class="shipLeif"></span><span class="shipNanna"></span></span><span class="shipwrap"><span class="shipJulia"></span><span class="shipCed"></span></span><span class="shipwrap"><span class="shipShannan"></span><span class="shipLarcei"></span></span></td>
+            </tr>
+            <tr><th class="shiphead" style="background-color:rgb(255, 140, 45);border:1px solid rgb(148, 71, 0);">Interesting to think about!</th>
+              <td class="shipline"><span class="shipwrap"><span class="shipEthlin"></span><span class="shipQuan"></span></span><span class="shipwrap"><span class="shipDeidre"></span><span class="shipEthlin"></span></span><span class="shipwrap"><span class="shipLachesis"></span><span class="shipEldigan"></span></span><span class="shipwrap"><span class="shipSigurd"></span><span class="shipEldigan"></span><span class="shipQuan"></span></span><span class="shipwrap"><span class="shipAzelle"></span><span class="shipTailtyu"></span></span><span class="shipwrap"><span class="shipLex"></span><span class="shipTailtyu"></span></span>
+            <span class="shipwrap"><span class="shipBeowolf"></span><span class="shipBrigid"></span></span><span class="shipwrap"><span class="shipSigurd"></span><span class="shipDeidre"></span><span class="shipArvis"></span></span><span class="shipwrap"><span class="shipAres"></span><span class="shipSeliph"></span></span><span class="shipwrap"><span class="shipLana"></span><span class="shipJulia"></span></span><span class="shipwrap"><span class="shipSeliph"></span><span class="shipJulia"></span><span class="shipJulius"></span></span></td>
+              </tr>
+              <tr>
+                <th class="shiphead" style="background-color:rgb(255, 242, 0);border:1px solid rgb(148, 131, 0);">It's fine, I guess.</th>
+              <td class="shipline"><span class="shipwrap"><span class="shipFinn"></span><span class="shipBrigid"></span></span><span class="shipwrap"><span class="shipOifey"></span><span class="shipShannan"></span></span><span class="shipwrap"><span class="shipPatty"></span><span class="shipShannan"></span></span><span class="shipwrap"><span class="shipSeliph"></span><span class="shipLarcei"></span></span></td>
+              </tr>
+              <tr>
+                <th class="shiphead" style="background-color:rgb(0, 255, 51);border:1px solid rgb(0, 148, 0);">I sleep.</th>
+              <td class="shipline"><span class="shipwrap"><span class="shipLewyn"></span><span class="shipErin"></span></span><span class="shipwrap"><span class="shipLewyn"></span><span class="shipSylvia"></span></span><span class="shipwrap"><span class="shipAyra"></span><span class="shipNoish"></span></span><span class="shipwrap"><span class="shipPatty"></span><span class="shipSeliph"></span></span><span class="shipwrap"><span class="shipPatty"></span><span class="shipScathach"></span></span></td>
+              </tr>
+              <tr>
+                <th class="shiphead" style="background-color:rgb(0, 115, 255);border:1px solid rgb(5, 0, 148);">Not feeling it now Mr. Krabs</th>
+              <td class="shipline"><span class="shipwrap"><span class="shipLene"></span><span class="shipCed"></span></span><span class="shipwrap"><span class="shipTine"></span><span class="shipCed"></span></span></td>
+              </tr>
+              <!--
+              above you can change the background color and border color. you can also put those parts in the shiphead class if you want all of them to be the same, but in my case i wanted to make each row different colors.
+              
+              format per ship is (replace shipHa etc with whatever you name each character)
+              <span class="shipwrap"><span class="shipHa"></span><span class="shipCh"></span></span>
+              copy one of those lines in the middle to make it an ot3/trio! or however many you want. go wild i guess. 
+              -->
+            </table>
+
                     <hr>
                     <h1>Sonic Shipping Chart</h1>
                     <p style= "color:blue; font-size:120%;"> Created by fini-mun @ tumblr.</p>
@@ -52,7 +375,6 @@
                     <h1>Honeyshipping Chart</h1>
                     <p style= "color:blue; font-size:120%;"> Created by <a href="https://twitter.com/ShyCustis/status/1658232265640402945?s=20">ShyCustis @ Twitter</a></p>
                     <img src="/Images/otp.jpg" class="responsive" />
-                    .
                     </div>
                 </div>
             </div>
